@@ -1,0 +1,14 @@
+  25/156 files  31s
+  50/156 files  82s
+  75/156 files  123s
+  100/156 files  141s
+  125/156 files  270s
+  150/156 files  326s
+ingested 156 files (156 docs in db) in 338.4s
+    fixed-1024-0: 512 chunks
+   fixed-1024-15: 564 chunks
+     fixed-256-0: 1762 chunks
+    fixed-256-15: 2024 chunks
+     fixed-512-0: 927 chunks
+    fixed-512-15: 1050 chunks
+     heading-512: 1204 chunks
