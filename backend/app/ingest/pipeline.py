@@ -1,4 +1,5 @@
 import bisect
+import re
 from pathlib import Path
 
 from sqlalchemy import delete, select
@@ -13,7 +14,7 @@ from app.ingest.loaders import load
 def _title(text: str, source: str) -> str:
     for line in text.splitlines():
         if line.startswith("# "):
-            return line[2:].strip()
+            return re.sub(r"\s*\{\s*#[^}]*\}\s*$", "", line[2:]).strip()  # drop mkdocs {#anchor}
     return Path(source).stem
 
 
