@@ -5,7 +5,7 @@ services:
       POSTGRES_USER: pramana
       POSTGRES_PASSWORD: pramana
       POSTGRES_DB: pramana
-    ports: ["5433:5432"]
+    ports: ["127.0.0.1:5433:5432"]  # local only: dev password
     volumes: [pgdata:/var/lib/postgresql/data]
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U pramana"]

@@ -76,6 +76,18 @@ __RESULTS__
 - Token counts are a regex approximation; dense search is an exact scan (fine at this size, no ANN index); the rate
   limiter is in-memory and single-process.
 
+## Security notes
+
+Pramana is a local, single-user tool: the API has no authentication and binds to `127.0.0.1`, Postgres is
+published on `127.0.0.1` only with a development password, and CORS allows only the local UI. Don't expose it
+to a network as-is. Uploaded files are parsed in memory and never written to disk.
+
+## Credits
+
+The evaluation corpus and the passages quoted in `eval/questions.jsonl` come from the
+[FastAPI documentation](https://github.com/fastapi/fastapi) (MIT License, © Sebastián Ramírez), pinned to commit
+`45cb225`.
+
 ## Project layout
 
 ```
