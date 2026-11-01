@@ -43,14 +43,23 @@ UNANSWERABLE = [  # hand-written; each topic's terms were checked to be absent f
     ("How do I expose Prometheus metrics from a FastAPI application?", ["prometheus"]),
     ("Can I define gRPC services alongside my REST endpoints in FastAPI?", ["grpc"]),
     ("How do I deploy a FastAPI app to Vercel?", ["vercel"]),
-    ("How do I send push notifications with Firebase Cloud Messaging from FastAPI?", ["firebase"]),
+    (
+        "How do I send push notifications with Firebase Cloud Messaging from FastAPI?",
+        ["firebase"],
+    ),
     ("How do I run a FastAPI app inside a Jupyter notebook?", ["jupyter"]),
     ("How do I stream live video to the browser with WebRTC in FastAPI?", ["webrtc"]),
-    ("How do I provision the infrastructure for a FastAPI deployment with Terraform?", ["terraform"]),
+    (
+        "How do I provision the infrastructure for a FastAPI deployment with Terraform?",
+        ["terraform"],
+    ),
     ("How do I deploy FastAPI as an Azure Functions app?", ["azure functions"]),
     ("What is the recommended way to store FastAPI data in DynamoDB?", ["dynamodb"]),
     ("How do I implement GraphQL subscriptions in FastAPI?", ["graphql subscription"]),
-    ("How do I index documents into Elasticsearch from a FastAPI endpoint?", ["elasticsearch"]),
+    (
+        "How do I index documents into Elasticsearch from a FastAPI endpoint?",
+        ["elasticsearch"],
+    ),
     ("How do I verify Stripe webhook signatures in a FastAPI route?", ["stripe"]),
 ]
 
@@ -73,7 +82,11 @@ MULTI_SCHEMA = {
     },
     "required": ["question", "evidence_a", "evidence_b", "answer"],
 }
-PARA_SCHEMA = {"type": "object", "properties": {"question": {"type": "string"}}, "required": ["question"]}
+PARA_SCHEMA = {
+    "type": "object",
+    "properties": {"question": {"type": "string"}},
+    "required": ["question"],
+}
 
 RULES = (
     "The question must be self-contained (never mention 'the passage', 'the text' or 'the documentation') "
@@ -164,7 +177,11 @@ def paraphrase(c: Chunk, text: str) -> dict | None:
     before, after = overlap(row["question"], c.text), overlap(out["question"], c.text)
     if after > 0.35 or after >= before:  # must be measurably keyword-poor
         return None
-    return row | {"question": out["question"].strip(), "original_question": row["question"], "overlap": after}
+    return row | {
+        "question": out["question"].strip(),
+        "original_question": row["question"],
+        "overlap": after,
+    }
 
 
 def main() -> None:
@@ -172,7 +189,14 @@ def main() -> None:
     with SessionLocal() as db:
         docs = {d.source: d.text for d in db.scalars(select(Document))}
         rows = db.execute(
-            select(Chunk.id, Chunk.text, Chunk.char_start, Chunk.char_end, Chunk.token_count, Document.source)
+            select(
+                Chunk.id,
+                Chunk.text,
+                Chunk.char_start,
+                Chunk.char_end,
+                Chunk.token_count,
+                Document.source,
+            )
             .join(Document)
             .where(Chunk.config == SAMPLE_CONFIG)
             .order_by(Chunk.id)
@@ -218,7 +242,13 @@ def main() -> None:
     take("multi", multi, pairs)
     take("paraphrase", paraphrase, [(c,) for c in reversed(pool)])
     out += [
-        {"type": "unanswerable", "answerable": False, "question": q, "gold": [], "evidence": []}
+        {
+            "type": "unanswerable",
+            "answerable": False,
+            "question": q,
+            "gold": [],
+            "evidence": [],
+        }
         for q, _ in UNANSWERABLE
     ]
 

@@ -7,10 +7,12 @@ retrieval:
   rerank: [false, true]       # cross-encoder over the top 30
   extra_configs: [heading-512]  # heading-aware chunker, same modes x rerank
 
-# Generation (answer + citations + judge) is ~100x slower than retrieval, so it runs on a subset:
-# every mode x rerank combination at the chunk config with the best retrieval recall@5.
+# Generation (answer + citations + judge) is ~100x slower than retrieval, so it runs on 3 runs at the
+# chunk config with the best retrieval recall@5: the dense baseline, hybrid, and hybrid + rerank.
 generation:
   k: 5
   chunk_config: best
-  mode: [dense, keyword, hybrid]
-  rerank: [false, true]
+  runs:
+    - {mode: dense, rerank: false}
+    - {mode: hybrid, rerank: false}
+    - {mode: hybrid, rerank: true}

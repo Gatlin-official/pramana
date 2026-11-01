@@ -29,7 +29,7 @@ def bow(text: str) -> list[float]:
 
 def stub_llm(messages):
     user = messages[-1]["content"]
-    yield "NOT_FOUND" if re.search(r"Kafka|Peru", user) else "Here is the answer [1] and a bogus one [9]."
+    yield ("NOT_FOUND" if re.search(r"Kafka|Peru", user) else "Here is the answer [1] and a bogus one [9].")
 
 
 @pytest.fixture
