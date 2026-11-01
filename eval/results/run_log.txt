@@ -1,0 +1,161 @@
+fixed-256-0__dense__norerank             R@5=0.719 MRR=0.594  (35s)
+W1101 15:31:42.879000 8928 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  12%|#2        | 25/201 [00:00<00:00, 242.19it/s]Loading weights:  32%|###1      | 64/201 [00:00<00:00, 316.48it/s]Loading weights:  51%|#####     | 102/201 [00:00<00:00, 343.55it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 560.94it/s]
+fixed-256-0__dense__rerank               R@5=0.729 MRR=0.643  (89s)
+fixed-256-0__keyword__norerank           R@5=0.590 MRR=0.445  (3s)
+fixed-256-0__keyword__rerank             R@5=0.743 MRR=0.661  (43s)
+fixed-256-0__hybrid__norerank            R@5=0.695 MRR=0.631  (35s)
+fixed-256-0__hybrid__rerank              R@5=0.748 MRR=0.664  (70s)
+fixed-256-15__dense__norerank            R@5=0.710 MRR=0.604  (34s)
+fixed-256-15__dense__rerank              R@5=0.733 MRR=0.652  (70s)
+fixed-256-15__keyword__norerank          R@5=0.633 MRR=0.511  (3s)
+fixed-256-15__keyword__rerank            R@5=0.748 MRR=0.679  (43s)
+fixed-256-15__hybrid__norerank           R@5=0.710 MRR=0.634  (34s)
+fixed-256-15__hybrid__rerank             R@5=0.781 MRR=0.696  (67s)
+fixed-512-0__dense__norerank             R@5=0.729 MRR=0.594  (31s)
+W1101 15:41:55.804000 32644 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  11%|#         | 22/201 [00:00<00:00, 214.32it/s]Loading weights:  36%|###5      | 72/201 [00:00<00:00, 377.03it/s]Loading weights:  58%|#####8    | 117/201 [00:00<00:00, 409.26it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 563.38it/s]
+fixed-512-0__dense__rerank               R@5=0.786 MRR=0.673  (98s)
+fixed-512-0__keyword__norerank           R@5=0.581 MRR=0.488  (2s)
+fixed-512-0__keyword__rerank             R@5=0.786 MRR=0.658  (60s)
+fixed-512-0__hybrid__norerank            R@5=0.748 MRR=0.634  (33s)
+fixed-512-0__hybrid__rerank              R@5=0.814 MRR=0.697  (83s)
+fixed-512-15__dense__norerank            R@5=0.700 MRR=0.587  (31s)
+fixed-512-15__dense__rerank              R@5=0.795 MRR=0.735  (83s)
+fixed-512-15__keyword__norerank          R@5=0.629 MRR=0.482  (2s)
+fixed-512-15__keyword__rerank            R@5=0.790 MRR=0.748  (61s)
+fixed-512-15__hybrid__norerank           R@5=0.719 MRR=0.626  (32s)
+fixed-512-15__hybrid__rerank             R@5=0.814 MRR=0.764  (82s)
+fixed-1024-0__dense__norerank            R@5=0.710 MRR=0.587  (29s)
+fixed-1024-0__dense__rerank              R@5=0.748 MRR=0.633  (80s)
+fixed-1024-0__keyword__norerank          R@5=0.590 MRR=0.509  (1s)
+fixed-1024-0__keyword__rerank            R@5=0.686 MRR=0.617  (59s)
+fixed-1024-0__hybrid__norerank           R@5=0.652 MRR=0.600  (30s)
+fixed-1024-0__hybrid__rerank             R@5=0.762 MRR=0.639  (81s)
+fixed-1024-15__dense__norerank           R@5=0.719 MRR=0.599  (29s)
+fixed-1024-15__dense__rerank             R@5=0.748 MRR=0.635  (84s)
+fixed-1024-15__keyword__norerank         R@5=0.576 MRR=0.515  (2s)
+fixed-1024-15__keyword__rerank           R@5=0.700 MRR=0.617  (59s)
+fixed-1024-15__hybrid__norerank          R@5=0.690 MRR=0.588  (44s)
+fixed-1024-15__hybrid__rerank            R@5=0.752 MRR=0.637  (96s)
+heading-512__dense__norerank             R@5=0.738 MRR=0.626  (35s)
+heading-512__dense__rerank               R@5=0.771 MRR=0.743  (95s)
+heading-512__keyword__norerank           R@5=0.576 MRR=0.442  (2s)
+heading-512__keyword__rerank             R@5=0.757 MRR=0.740  (59s)
+heading-512__hybrid__norerank            R@5=0.719 MRR=0.602  (46s)
+heading-512__hybrid__rerank              R@5=0.805 MRR=0.757  (94s)
+best retrieval run: fixed-512-0__hybrid__rerank  recall@5=0.814
+best retrieval run: fixed-512-0__hybrid__rerank  recall@5=0.814
+Traceback (most recent call last):
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1958, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1192, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\psycopg\cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+psycopg.OperationalError: consuming input failed: could not receive data from server: Software caused connection abort (0x00002745/10053)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Work\Pramana\eval\run_eval.py", line 308, in <module>
+    main()
+    ~~~~^^
+  File "D:\Work\Pramana\eval\run_eval.py", line 237, in main
+    g = generation_run(db, qs, gconfig, mode, rerank, gen["k"])
+  File "D:\Work\Pramana\eval\run_eval.py", line 124, in generation_run
+    events = list(answer_mod.answer_stream(db, q["question"], mode, config, rerank, k, llm=llm))
+  File "D:\Work\Pramana\backend\app\generation\answer.py", line 120, in answer_stream
+    hits = {"dense": search.dense, "keyword": search.keyword, "hybrid": search.hybrid}[mode](db, question, config, pool)
+  File "D:\Work\Pramana\backend\app\retrieval\search.py", line 43, in dense
+    return _hits(db.execute(sql, {"v": vec, "cfg": config, "k": k}))
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2473, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2373, in _execute_internal
+    result = conn.execute(
+        statement, params, execution_options=combined_execution_options
+    )
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1463, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1683, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<9 lines>...
+        param_dict=param_dict,
+    )
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1837, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1977, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2347, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1958, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1192, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Work\Pramana\backend\.venv\Lib\site-packages\psycopg\cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+sqlalchemy.exc.OperationalError: (psycopg.OperationalError) consuming input failed: could not receive data from server: Software caused connection abort (0x00002745/10053)
+[SQL: 
+        SELECT c.id, c.doc_id, d.source, c.text, c.char_start, c.char_end, c.page, 1 - (c.embedding <=> CAST(%(v)s AS vector)) AS score
+        FROM chunks c JOIN documents d ON d.id = c.doc_id
+        WHERE c.config = %(cfg)s ORDER BY c.embedding <=> CAST(%(v)s AS vector) LIMIT %(k)s]
+[parameters: {'v': '[0.0120877195, 0.048668995, -0.16917846, -0.060330696, 0.040749375, -0.039875932, 0.04060775, -0.05440904, -0.0071459278, -0.051026832, 0.07530286, - ... (10012 characters truncated) ... 0.0035168033, 0.10320576, -0.0022342242, 0.049245764, -0.014043992, 0.045727715, -0.024493122, -0.012563675, -0.026746364, 0.008654995, -0.028033277]', 'cfg': 'fixed-512-0', 'k': 5}]
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+best retrieval run: fixed-512-0__hybrid__rerank  recall@5=0.814
+GEN fixed-512-0__dense__norerank         cite_p=0.5404040404040404 faith=0.6363636363636364 abst=1.0  (882s)
+GEN fixed-512-0__hybrid__norerank        cite_p=0.553921568627451 faith=0.6176470588235294 abst=1.0  (1157s)
+W1101 16:57:27.009000 33272 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   3%|2         | 6/201 [00:00<00:06, 29.29it/s]Loading weights:   4%|4         | 9/201 [00:00<00:07, 26.29it/s]Loading weights:   6%|5         | 12/201 [00:00<00:08, 22.05it/s]Loading weights:  14%|#3        | 28/201 [00:00<00:02, 60.01it/s]Loading weights:  25%|##5       | 51/201 [00:00<00:01, 102.98it/s]Loading weights:  32%|###1      | 64/201 [00:00<00:01, 109.49it/s]Loading weights:  38%|###8      | 77/201 [00:01<00:02, 58.85it/s] Loading weights:  43%|####3     | 87/201 [00:01<00:02, 41.59it/s]Loading weights:  53%|#####2    | 106/201 [00:01<00:01, 60.16it/s]Loading weights: 100%|##########| 201/201 [00:01<00:00, 109.35it/s]
+best retrieval run: fixed-512-0__hybrid__rerank  recall@5=0.814
+W1101 17:00:24.231000 836 .venv\Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   5%|5         | 11/201 [00:00<00:02, 89.17it/s]Loading weights:  28%|##7       | 56/201 [00:00<00:00, 269.55it/s]Loading weights:  42%|####1     | 84/201 [00:00<00:00, 199.84it/s]Loading weights:  53%|#####2    | 106/201 [00:00<00:00, 191.54it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 321.38it/s]
+GEN fixed-512-0__hybrid__rerank          cite_p=0.5774410774410774 faith=0.6666666666666666 abst=1.0  (1453s)
+wrote D:\Work\Pramana\eval\results\summary.csv (42 runs)
+wrote D:\Work\Pramana\eval\results\judge_spotcheck.jsonl: set human_faithful true/false on each row, then run eval/report.py

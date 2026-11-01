@@ -1,0 +1,7523 @@
+{
+ "config": "fixed-256-15",
+ "mode": "hybrid",
+ "rerank": false,
+ "k": 10,
+ "metrics": {
+  "recall@5": 0.7095238095238096,
+  "recall@10": 0.7761904761904762,
+  "mrr": 0.6336885865457293,
+  "ndcg@10": 0.6503379823848924,
+  "recall@5_single": 0.8769230769230769,
+  "recall@5_multi": 0.725,
+  "recall@5_paraphrase": 0.15,
+  "n_questions": 120,
+  "n_answerable": 105,
+  "retrieval_p50_ms": 279.75,
+  "retrieval_p95_ms": 330.735
+ },
+ "questions": [
+  {
+   "id": "q001",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 240.5,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/path-params-numeric-validations.md",
+     0,
+     1070
+    ],
+    [
+     "tutorial/path-params.md",
+     7063,
+     8072
+    ],
+    [
+     "tutorial/query-params.md",
+     2928,
+     3924
+    ],
+    [
+     "tutorial/request-files.md",
+     794,
+     1860
+    ],
+    [
+     "tutorial/path-params-numeric-validations.md",
+     897,
+     1906
+    ],
+    [
+     "release-notes.md",
+     526817,
+     527768
+    ],
+    [
+     "tutorial/first-steps.md",
+     8858,
+     9689
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     3426,
+     4489
+    ],
+    [
+     "tutorial/body.md",
+     5085,
+     5994
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q002",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 248.6,
+   "top_score": 0.03131881575727918,
+   "hits": [
+    [
+     "advanced/using-request-directly.md",
+     930,
+     2047
+    ],
+    [
+     "reference/request.md",
+     0,
+     651
+    ],
+    [
+     "reference/parameters.md",
+     0,
+     602
+    ],
+    [
+     "advanced/using-request-directly.md",
+     0,
+     1119
+    ],
+    [
+     "tutorial/body.md",
+     5085,
+     5994
+    ],
+    [
+     "alternatives.md",
+     2950,
+     3993
+    ],
+    [
+     "release-notes.md",
+     278694,
+     279742
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "tutorial/request-files.md",
+     794,
+     1860
+    ],
+    [
+     "release-notes.md",
+     526817,
+     527768
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.3333333333333333,
+   "ndcg@10": 0.5
+  },
+  {
+   "id": "q003",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 243.8,
+   "top_score": 0.030776515151515152,
+   "hits": [
+    [
+     "tutorial/body-fields.md",
+     0,
+     955
+    ],
+    [
+     "advanced/dataclasses.md",
+     0,
+     1063
+    ],
+    [
+     "advanced/settings.md",
+     1975,
+     3012
+    ],
+    [
+     "release-notes.md",
+     278694,
+     279742
+    ],
+    [
+     "tutorial/request-form-models.md",
+     0,
+     889
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     4594,
+     5628
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     2725,
+     3752
+    ],
+    [
+     "release-notes.md",
+     152804,
+     153737
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     0,
+     1080
+    ],
+    [
+     "release-notes.md",
+     285117,
+     285998
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q004",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 222.6,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "async.md",
+     7094,
+     8225
+    ],
+    [
+     "async.md",
+     5398,
+     6405
+    ],
+    [
+     "async.md",
+     6256,
+     7266
+    ],
+    [
+     "async.md",
+     9002,
+     10006
+    ],
+    [
+     "async.md",
+     10706,
+     11734
+    ],
+    [
+     "async.md",
+     8059,
+     9142
+    ],
+    [
+     "async.md",
+     13429,
+     14503
+    ],
+    [
+     "advanced/events.md",
+     2650,
+     3678
+    ],
+    [
+     "python-types.md",
+     2542,
+     3484
+    ],
+    [
+     "tutorial/path-params.md",
+     750,
+     1560
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q005",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 247.7,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/request-form-models.md",
+     1521,
+     2547
+    ],
+    [
+     "tutorial/request-form-models.md",
+     2362,
+     3543
+    ],
+    [
+     "tutorial/request-form-models.md",
+     742,
+     1672
+    ],
+    [
+     "tutorial/request-form-models.md",
+     3355,
+     4376
+    ],
+    [
+     "tutorial/header-param-models.md",
+     818,
+     1784
+    ],
+    [
+     "release-notes.md",
+     2143,
+     3123
+    ],
+    [
+     "tutorial/request-forms.md",
+     776,
+     1751
+    ],
+    [
+     "tutorial/query-param-models.md",
+     816,
+     1743
+    ],
+    [
+     "release-notes.md",
+     10200,
+     11335
+    ],
+    [
+     "tutorial/cookie-param-models.md",
+     1536,
+     2515
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q006",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 227.2,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "advanced/dataclasses.md",
+     890,
+     2015
+    ],
+    [
+     "advanced/dataclasses.md",
+     0,
+     1063
+    ],
+    [
+     "advanced/response-directly.md",
+     0,
+     994
+    ],
+    [
+     "advanced/dataclasses.md",
+     2725,
+     3866
+    ],
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "advanced/custom-response.md",
+     9829,
+     10943
+    ],
+    [
+     "tutorial/response-model.md",
+     10894,
+     11955
+    ],
+    [
+     "advanced/additional-responses.md",
+     0,
+     1154
+    ],
+    [
+     "tutorial/response-model.md",
+     1833,
+     2755
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q007",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 268.2,
+   "top_score": 0.029116045245077504,
+   "hits": [
+    [
+     "tutorial/header-param-models.md",
+     2602,
+     3759
+    ],
+    [
+     "tutorial/header-param-models.md",
+     818,
+     1784
+    ],
+    [
+     "alternatives.md",
+     2950,
+     3993
+    ],
+    [
+     "advanced/using-request-directly.md",
+     0,
+     1119
+    ],
+    [
+     "release-notes.md",
+     278694,
+     279742
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     0,
+     1021
+    ],
+    [
+     "advanced/strict-content-type.md",
+     0,
+     1081
+    ],
+    [
+     "advanced/strict-content-type.md",
+     2710,
+     3288
+    ],
+    [
+     "reference/responses.md",
+     2539,
+     4545
+    ],
+    [
+     "tutorial/header-param-models.md",
+     3598,
+     4138
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q008",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 295.5,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/using-request-directly.md",
+     0,
+     1119
+    ],
+    [
+     "reference/request.md",
+     0,
+     651
+    ],
+    [
+     "alternatives.md",
+     2950,
+     3993
+    ],
+    [
+     "advanced/using-request-directly.md",
+     930,
+     2047
+    ],
+    [
+     "advanced/response-directly.md",
+     0,
+     994
+    ],
+    [
+     "advanced/opentelemetry.md",
+     2880,
+     4057
+    ],
+    [
+     "features.md",
+     7776,
+     8886
+    ],
+    [
+     "alternatives.md",
+     13066,
+     14264
+    ],
+    [
+     "advanced/response-cookies.md",
+     908,
+     2010
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q009",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 258.9,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "tutorial/dependencies/global-dependencies.md",
+     0,
+     1059
+    ],
+    [
+     "release-notes.md",
+     697059,
+     698251
+    ],
+    [
+     "release-notes.md",
+     596771,
+     597949
+    ],
+    [
+     "tutorial/dependencies/dependencies-in-path-operation-decorators.md",
+     1894,
+     2953
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     6897,
+     8099
+    ],
+    [
+     "advanced/testing-dependencies.md",
+     1087,
+     2162
+    ],
+    [
+     "index.md",
+     23729,
+     24769
+    ],
+    [
+     "advanced/generate-clients.md",
+     4191,
+     5224
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     5957,
+     7079
+    ],
+    [
+     "tutorial/dependencies/sub-dependencies.md",
+     0,
+     1022
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q010",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 232.8,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/server-sent-events.md",
+     0,
+     848
+    ],
+    [
+     "tutorial/stream-json-lines.md",
+     4044,
+     4445
+    ],
+    [
+     "reference/sse.md",
+     0,
+     661
+    ],
+    [
+     "tutorial/server-sent-events.md",
+     728,
+     1686
+    ],
+    [
+     "deployment/manually.md",
+     2598,
+     3639
+    ],
+    [
+     "release-notes.md",
+     92854,
+     93598
+    ],
+    [
+     "tutorial/server-sent-events.md",
+     3883,
+     4700
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     12410,
+     13395
+    ],
+    [
+     "tutorial/stream-json-lines.md",
+     2490,
+     3381
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.3333333333333333,
+   "ndcg@10": 0.5
+  },
+  {
+   "id": "q011",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 277.7,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "deployment/https.md",
+     5211,
+     6272
+    ],
+    [
+     "deployment/https.md",
+     7035,
+     8062
+    ],
+    [
+     "deployment/https.md",
+     8831,
+     9945
+    ],
+    [
+     "deployment/https.md",
+     6113,
+     7202
+    ],
+    [
+     "deployment/https.md",
+     2486,
+     3560
+    ],
+    [
+     "deployment/https.md",
+     1648,
+     2644
+    ],
+    [
+     "deployment/https.md",
+     11713,
+     12697
+    ],
+    [
+     "deployment/https.md",
+     4396,
+     5382
+    ],
+    [
+     "tutorial/cors.md",
+     776,
+     1836
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     2379,
+     3364
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q012",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 239.9,
+   "top_score": 0.031024531024531024,
+   "hits": [
+    [
+     "benchmarks.md",
+     2023,
+     3264
+    ],
+    [
+     "advanced/response-cookies.md",
+     908,
+     2010
+    ],
+    [
+     "advanced/custom-response.md",
+     4538,
+     5572
+    ],
+    [
+     "deployment/versions.md",
+     2531,
+     3509
+    ],
+    [
+     "features.md",
+     6094,
+     7080
+    ],
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "advanced/custom-response.md",
+     5427,
+     6491
+    ],
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "advanced/response-headers.md",
+     915,
+     1969
+    ],
+    [
+     "advanced/middleware.md",
+     979,
+     2223
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q013",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 237.5,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/middleware.md",
+     2611,
+     3691
+    ],
+    [
+     "tutorial/middleware.md",
+     0,
+     1027
+    ],
+    [
+     "advanced/middleware.md",
+     979,
+     2223
+    ],
+    [
+     "advanced/middleware.md",
+     0,
+     1180
+    ],
+    [
+     "tutorial/middleware.md",
+     3487,
+     3939
+    ],
+    [
+     "release-notes.md",
+     476567,
+     477562
+    ],
+    [
+     "tutorial/middleware.md",
+     894,
+     1884
+    ],
+    [
+     "deployment/concepts.md",
+     9316,
+     10471
+    ],
+    [
+     "deployment/docker.md",
+     25272,
+     26355
+    ],
+    [
+     "deployment/docker.md",
+     19794,
+     20902
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q014",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 243.8,
+   "top_score": 0.030309988518943745,
+   "hits": [
+    [
+     "async.md",
+     17219,
+     18221
+    ],
+    [
+     "tutorial/request-files.md",
+     794,
+     1860
+    ],
+    [
+     "tutorial/request-files.md",
+     3321,
+     4250
+    ],
+    [
+     "advanced/stream-data.md",
+     4153,
+     5164
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     5185,
+     6081
+    ],
+    [
+     "tutorial/first-steps.md",
+     11100,
+     11910
+    ],
+    [
+     "advanced/custom-response.md",
+     8102,
+     9146
+    ],
+    [
+     "async.md",
+     0,
+     1001
+    ],
+    [
+     "advanced/stream-data.md",
+     813,
+     1763
+    ],
+    [
+     "tutorial/bigger-applications.md",
+     5466,
+     6382
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.3333333333333333,
+   "ndcg@10": 0.5
+  },
+  {
+   "id": "q015",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 260.4,
+   "top_score": 0.032018442622950824,
+   "hits": [
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "advanced/response-directly.md",
+     0,
+     994
+    ],
+    [
+     "tutorial/response-model.md",
+     0,
+     1073
+    ],
+    [
+     "advanced/response-cookies.md",
+     908,
+     2010
+    ],
+    [
+     "advanced/additional-status-codes.md",
+     0,
+     1127
+    ],
+    [
+     "advanced/custom-response.md",
+     1910,
+     2894
+    ],
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "advanced/custom-response.md",
+     3591,
+     4671
+    ],
+    [
+     "deployment/concepts.md",
+     7319,
+     8508
+    ],
+    [
+     "tutorial/handling-errors.md",
+     0,
+     1065
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 1.0,
+   "mrr": 0.1,
+   "ndcg@10": 0.2890648263178879
+  },
+  {
+   "id": "q016",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 264.9,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/sub-applications.md",
+     0,
+     1034
+    ],
+    [
+     "advanced/sub-applications.md",
+     2350,
+     2955
+    ],
+    [
+     "advanced/sub-applications.md",
+     1606,
+     2548
+    ],
+    [
+     "tutorial/static-files.md",
+     866,
+     1920
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     13987,
+     14872
+    ],
+    [
+     "advanced/sub-applications.md",
+     921,
+     1697
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     4081,
+     5081
+    ],
+    [
+     "release-notes.md",
+     637275,
+     638239
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "tutorial/bigger-applications.md",
+     16862,
+     17935
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q017",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 272.2,
+   "top_score": 0.03125763125763126,
+   "hits": [
+    [
+     "deployment/versions.md",
+     2531,
+     3509
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     4718,
+     5665
+    ],
+    [
+     "tutorial/testing.md",
+     1674,
+     2543
+    ],
+    [
+     "tutorial/frontend.md",
+     5132,
+     6290
+    ],
+    [
+     "tutorial/request-files.md",
+     794,
+     1860
+    ],
+    [
+     "deployment/docker.md",
+     15973,
+     17109
+    ],
+    [
+     "deployment/versions.md",
+     0,
+     1120
+    ],
+    [
+     "tutorial/frontend.md",
+     0,
+     1031
+    ],
+    [
+     "tutorial/first-steps.md",
+     0,
+     993
+    ],
+    [
+     "deployment/manually.md",
+     0,
+     851
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q018",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 264.5,
+   "top_score": 0.027119252873563218,
+   "hits": [
+    [
+     "deployment/concepts.md",
+     9316,
+     10471
+    ],
+    [
+     "tutorial/header-params.md",
+     1818,
+     2873
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     0,
+     1021
+    ],
+    [
+     "alternatives.md",
+     13066,
+     14264
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/bigger-applications.md",
+     18450,
+     19480
+    ],
+    [
+     "tutorial/header-params.md",
+     2742,
+     3031
+    ],
+    [
+     "reference/responses.md",
+     2539,
+     4545
+    ],
+    [
+     "release-notes.md",
+     370046,
+     370937
+    ],
+    [
+     "tutorial/header-param-models.md",
+     2602,
+     3759
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q019",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 270.9,
+   "top_score": 0.032018442622950824,
+   "hits": [
+    [
+     "advanced/websockets.md",
+     1760,
+     2574
+    ],
+    [
+     "reference/websockets.md",
+     0,
+     1600
+    ],
+    [
+     "advanced/websockets.md",
+     917,
+     1907
+    ],
+    [
+     "advanced/websockets.md",
+     0,
+     1095
+    ],
+    [
+     "advanced/websockets.md",
+     3924,
+     5097
+    ],
+    [
+     "advanced/websockets.md",
+     2438,
+     3366
+    ],
+    [
+     "advanced/opentelemetry.md",
+     1034,
+     2024
+    ],
+    [
+     "advanced/opentelemetry.md",
+     5993,
+     7194
+    ],
+    [
+     "advanced/websockets.md",
+     3245,
+     4099
+    ],
+    [
+     "advanced/openapi-webhooks.md",
+     846,
+     1831
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q020",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 271.1,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "advanced/response-directly.md",
+     0,
+     994
+    ],
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "advanced/response-cookies.md",
+     908,
+     2010
+    ],
+    [
+     "advanced/response-directly.md",
+     2603,
+     3570
+    ],
+    [
+     "advanced/custom-response.md",
+     9829,
+     10943
+    ],
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "tutorial/response-model.md",
+     0,
+     1073
+    ],
+    [
+     "advanced/additional-responses.md",
+     0,
+     1154
+    ],
+    [
+     "advanced/response-cookies.md",
+     0,
+     1091
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q021",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 284.1,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "reference/status.md",
+     0,
+     860
+    ],
+    [
+     "advanced/additional-status-codes.md",
+     0,
+     1127
+    ],
+    [
+     "tutorial/response-status-code.md",
+     771,
+     1813
+    ],
+    [
+     "tutorial/response-status-code.md",
+     0,
+     924
+    ],
+    [
+     "how-to/authentication-error-status-code.md",
+     0,
+     1099
+    ],
+    [
+     "tutorial/response-status-code.md",
+     2498,
+     3501
+    ],
+    [
+     "tutorial/path-operation-configuration.md",
+     0,
+     1089
+    ],
+    [
+     "advanced/additional-responses.md",
+     6597,
+     7716
+    ],
+    [
+     "tutorial/handling-errors.md",
+     1879,
+     2755
+    ],
+    [
+     "advanced/custom-response.md",
+     4538,
+     5572
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q022",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 255.7,
+   "top_score": 0.03200204813108039,
+   "hits": [
+    [
+     "advanced/response-headers.md",
+     0,
+     1084
+    ],
+    [
+     "reference/responses.md",
+     2539,
+     4545
+    ],
+    [
+     "advanced/response-cookies.md",
+     0,
+     1091
+    ],
+    [
+     "reference/responses.md",
+     1096,
+     2912
+    ],
+    [
+     "advanced/response-headers.md",
+     915,
+     1969
+    ],
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "release-notes.md",
+     278694,
+     279742
+    ],
+    [
+     "advanced/response-cookies.md",
+     908,
+     2010
+    ],
+    [
+     "advanced/response-change-status-code.md",
+     879,
+     1557
+    ],
+    [
+     "advanced/custom-response.md",
+     4538,
+     5572
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q023",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 267.9,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "tutorial/frontend.md",
+     3362,
+     4349
+    ],
+    [
+     "tutorial/frontend.md",
+     2544,
+     3513
+    ],
+    [
+     "tutorial/frontend.md",
+     0,
+     1031
+    ],
+    [
+     "tutorial/frontend.md",
+     5132,
+     6290
+    ],
+    [
+     "tutorial/frontend.md",
+     4179,
+     5278
+    ],
+    [
+     "tutorial/frontend.md",
+     927,
+     1812
+    ],
+    [
+     "tutorial/frontend.md",
+     1684,
+     2695
+    ],
+    [
+     "release-notes.md",
+     9368,
+     10399
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     2617,
+     3534
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     4718,
+     5665
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q024",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 256.6,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "fastapi-cli.md",
+     3297,
+     4214
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "tutorial/first-steps.md",
+     6376,
+     7330
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "tutorial/bigger-applications.md",
+     16862,
+     17935
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "fastapi-cli.md",
+     0,
+     941
+    ],
+    [
+     "release-notes.md",
+     305337,
+     306274
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q025",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 285.1,
+   "top_score": 0.03036576949620428,
+   "hits": [
+    [
+     "advanced/security/oauth2-scopes.md",
+     0,
+     1259
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     5503,
+     6602
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     4613,
+     5659
+    ],
+    [
+     "reference/dependencies.md",
+     0,
+     670
+    ],
+    [
+     "tutorial/dependencies/sub-dependencies.md",
+     0,
+     1022
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     2776,
+     3814
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     3708,
+     4755
+    ],
+    [
+     "release-notes.md",
+     697059,
+     698251
+    ],
+    [
+     "release-notes.md",
+     705879,
+     706788
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     9213,
+     10562
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q026",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 333.8,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/index.md",
+     3352,
+     4295
+    ],
+    [
+     "tutorial/index.md",
+     4143,
+     5258
+    ],
+    [
+     "tutorial/index.md",
+     5117,
+     6168
+    ],
+    [
+     "virtual-environments.md",
+     0,
+     988
+    ],
+    [
+     "tutorial/security/first-steps.md",
+     823,
+     1662
+    ],
+    [
+     "fastapi-cli.md",
+     0,
+     941
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "deployment/docker.md",
+     6110,
+     6995
+    ],
+    [
+     "index.md",
+     23729,
+     24769
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q027",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 271.5,
+   "top_score": 0.032018442622950824,
+   "hits": [
+    [
+     "advanced/events.md",
+     6952,
+     7969
+    ],
+    [
+     "advanced/events.md",
+     4348,
+     5398
+    ],
+    [
+     "advanced/testing-events.md",
+     0,
+     623
+    ],
+    [
+     "advanced/events.md",
+     0,
+     1024
+    ],
+    [
+     "advanced/events.md",
+     5238,
+     6240
+    ],
+    [
+     "advanced/events.md",
+     1759,
+     2809
+    ],
+    [
+     "advanced/events.md",
+     2650,
+     3678
+    ],
+    [
+     "release-notes.md",
+     472127,
+     473263
+    ],
+    [
+     "advanced/events.md",
+     6133,
+     7150
+    ],
+    [
+     "deployment/concepts.md",
+     6389,
+     7505
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q028",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 289.2,
+   "top_score": 0.031754032258064516,
+   "hits": [
+    [
+     "benchmarks.md",
+     2023,
+     3264
+    ],
+    [
+     "alternatives.md",
+     18086,
+     19264
+    ],
+    [
+     "history-design-future.md",
+     929,
+     2149
+    ],
+    [
+     "alternatives.md",
+     0,
+     1174
+    ],
+    [
+     "alternatives.md",
+     982,
+     2090
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "deployment/versions.md",
+     0,
+     1120
+    ],
+    [
+     "fastapi-cli.md",
+     0,
+     941
+    ],
+    [
+     "index.md",
+     21141,
+     22233
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.3333333333333333,
+   "ndcg@10": 0.5
+  },
+  {
+   "id": "q029",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 276.2,
+   "top_score": 0.03200204813108039,
+   "hits": [
+    [
+     "reference/middleware.md",
+     0,
+     844
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "advanced/middleware.md",
+     979,
+     2223
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "tutorial/cors.md",
+     1624,
+     2737
+    ],
+    [
+     "reference/fastapi.md",
+     0,
+     723
+    ],
+    [
+     "tutorial/bigger-applications.md",
+     10375,
+     11334
+    ],
+    [
+     "tutorial/index.md",
+     5117,
+     6168
+    ],
+    [
+     "editor-support.md",
+     0,
+     1095
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q030",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 274.5,
+   "top_score": 0.03200204813108039,
+   "hits": [
+    [
+     "how-to/general.md",
+     1940,
+     2833
+    ],
+    [
+     "how-to/extending-openapi.md",
+     2627,
+     3549
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     4758,
+     5932
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     7293,
+     8267
+    ],
+    [
+     "how-to/extending-openapi.md",
+     1822,
+     2761
+    ],
+    [
+     "tutorial/body-fields.md",
+     1703,
+     2416
+    ],
+    [
+     "tutorial/metadata.md",
+     2409,
+     3368
+    ],
+    [
+     "how-to/extending-openapi.md",
+     0,
+     1061
+    ],
+    [
+     "tutorial/metadata.md",
+     0,
+     851
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     6432,
+     7438
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q031",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 266.7,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "advanced/events.md",
+     4348,
+     5398
+    ],
+    [
+     "deployment/versions.md",
+     2531,
+     3509
+    ],
+    [
+     "advanced/testing-events.md",
+     0,
+     623
+    ],
+    [
+     "release-notes.md",
+     472127,
+     473263
+    ],
+    [
+     "advanced/async-tests.md",
+     2605,
+     3664
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "deployment/versions.md",
+     0,
+     1120
+    ],
+    [
+     "advanced/events.md",
+     6952,
+     7969
+    ],
+    [
+     "fastapi-cli.md",
+     5859,
+     6671
+    ],
+    [
+     "deployment/concepts.md",
+     5458,
+     6562
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.3333333333333333,
+   "ndcg@10": 0.5
+  },
+  {
+   "id": "q032",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 285.2,
+   "top_score": 0.03131881575727918,
+   "hits": [
+    [
+     "tutorial/background-tasks.md",
+     1026,
+     2044
+    ],
+    [
+     "tutorial/background-tasks.md",
+     0,
+     1178
+    ],
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "advanced/response-directly.md",
+     0,
+     994
+    ],
+    [
+     "release-notes.md",
+     408178,
+     409542
+    ],
+    [
+     "advanced/custom-response.md",
+     3591,
+     4671
+    ],
+    [
+     "advanced/response-cookies.md",
+     0,
+     1091
+    ],
+    [
+     "tutorial/background-tasks.md",
+     1895,
+     2993
+    ],
+    [
+     "release-notes.md",
+     407096,
+     408385
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     7458,
+     8680
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q033",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 273.1,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "advanced/using-request-directly.md",
+     0,
+     1119
+    ],
+    [
+     "reference/request.md",
+     0,
+     651
+    ],
+    [
+     "alternatives.md",
+     2950,
+     3993
+    ],
+    [
+     "advanced/using-request-directly.md",
+     930,
+     2047
+    ],
+    [
+     "advanced/strict-content-type.md",
+     2710,
+     3288
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "index.md",
+     17778,
+     18723
+    ],
+    [
+     "index.md",
+     23729,
+     24769
+    ],
+    [
+     "release-notes.md",
+     516083,
+     517066
+    ],
+    [
+     "tutorial/server-sent-events.md",
+     2298,
+     3246
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q034",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 283.8,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "how-to/custom-request-and-route.md",
+     0,
+     1062
+    ],
+    [
+     "how-to/custom-request-and-route.md",
+     918,
+     1987
+    ],
+    [
+     "how-to/custom-request-and-route.md",
+     2680,
+     3804
+    ],
+    [
+     "how-to/custom-request-and-route.md",
+     1802,
+     2876
+    ],
+    [
+     "release-notes.md",
+     671136,
+     672097
+    ],
+    [
+     "advanced/middleware.md",
+     3017,
+     4132
+    ],
+    [
+     "tutorial/body.md",
+     0,
+     987
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     4758,
+     5932
+    ],
+    [
+     "reference/responses.md",
+     0,
+     1233
+    ],
+    [
+     "advanced/using-request-directly.md",
+     0,
+     1119
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q035",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 289.9,
+   "top_score": 0.02844163539403516,
+   "hits": [
+    [
+     "advanced/using-request-directly.md",
+     0,
+     1119
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "tutorial/cors.md",
+     1624,
+     2737
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     3211,
+     4244
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "advanced/using-request-directly.md",
+     930,
+     2047
+    ],
+    [
+     "reference/responses.md",
+     2539,
+     4545
+    ],
+    [
+     "fastapi-cli.md",
+     5859,
+     6671
+    ],
+    [
+     "tutorial/cors.md",
+     2542,
+     3511
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q036",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 292.3,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/index.md",
+     0,
+     756
+    ],
+    [
+     "tutorial/index.md",
+     5117,
+     6168
+    ],
+    [
+     "deployment/versions.md",
+     0,
+     1120
+    ],
+    [
+     "benchmarks.md",
+     2023,
+     3264
+    ],
+    [
+     "index.md",
+     23729,
+     24769
+    ],
+    [
+     "async.md",
+     18077,
+     19011
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "features.md",
+     6094,
+     7080
+    ],
+    [
+     "release-notes.md",
+     305337,
+     306274
+    ],
+    [
+     "deployment/versions.md",
+     2531,
+     3509
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q037",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 262.4,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/response-model.md",
+     9947,
+     11069
+    ],
+    [
+     "tutorial/response-model.md",
+     911,
+     1984
+    ],
+    [
+     "release-notes.md",
+     685704,
+     686788
+    ],
+    [
+     "tutorial/response-model.md",
+     9020,
+     10132
+    ],
+    [
+     "tutorial/response-model.md",
+     0,
+     1073
+    ],
+    [
+     "tutorial/response-model.md",
+     8086,
+     9196
+    ],
+    [
+     "tutorial/response-model.md",
+     5341,
+     6391
+    ],
+    [
+     "tutorial/server-sent-events.md",
+     1557,
+     2441
+    ],
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "release-notes.md",
+     482079,
+     483014
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q038",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 285.7,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "advanced/strict-content-type.md",
+     0,
+     1081
+    ],
+    [
+     "advanced/strict-content-type.md",
+     2710,
+     3288
+    ],
+    [
+     "advanced/custom-response.md",
+     5427,
+     6491
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     5764,
+     6985
+    ],
+    [
+     "release-notes.md",
+     578457,
+     579441
+    ],
+    [
+     "release-notes.md",
+     95504,
+     96339
+    ],
+    [
+     "tutorial/cors.md",
+     3384,
+     4402
+    ],
+    [
+     "release-notes.md",
+     96187,
+     97012
+    ],
+    [
+     "advanced/using-request-directly.md",
+     0,
+     1119
+    ],
+    [
+     "advanced/stream-data.md",
+     1649,
+     2650
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q039",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 300.7,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/openapi-webhooks.md",
+     846,
+     1831
+    ],
+    [
+     "advanced/openapi-webhooks.md",
+     0,
+     1013
+    ],
+    [
+     "alternatives.md",
+     2950,
+     3993
+    ],
+    [
+     "advanced/using-request-directly.md",
+     0,
+     1119
+    ],
+    [
+     "advanced/openapi-webhooks.md",
+     1671,
+     2641
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     946,
+     1974
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     3629,
+     4689
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     8943,
+     9767
+    ],
+    [
+     "help-fastapi.md",
+     0,
+     903
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q040",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 302.7,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/security/index.md",
+     0,
+     647
+    ],
+    [
+     "advanced/index.md",
+     0,
+     756
+    ],
+    [
+     "tutorial/security/index.md",
+     0,
+     1166
+    ],
+    [
+     "tutorial/index.md",
+     6939,
+     7457
+    ],
+    [
+     "how-to/conditional-openapi.md",
+     0,
+     1259
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     10411,
+     11570
+    ],
+    [
+     "tutorial/security/first-steps.md",
+     0,
+     936
+    ],
+    [
+     "features.md",
+     4171,
+     5292
+    ],
+    [
+     "release-notes.md",
+     602976,
+     603835
+    ],
+    [
+     "how-to/general.md",
+     0,
+     1108
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q041",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 270.6,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "tutorial/metadata.md",
+     4827,
+     5852
+    ],
+    [
+     "how-to/extending-openapi.md",
+     1822,
+     2761
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     12410,
+     13395
+    ],
+    [
+     "how-to/extending-openapi.md",
+     2627,
+     3549
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     857,
+     1925
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     4758,
+     5932
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     5533,
+     6558
+    ],
+    [
+     "how-to/extending-openapi.md",
+     0,
+     1061
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     11762,
+     12567
+    ],
+    [
+     "tutorial/first-steps.md",
+     5520,
+     6570
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q042",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 311.4,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/advanced-dependencies.md",
+     3674,
+     4818
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     2776,
+     3814
+    ],
+    [
+     "release-notes.md",
+     158940,
+     160025
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     4676,
+     5752
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     6456,
+     7666
+    ],
+    [
+     "tutorial/dependencies/dependencies-with-yield.md",
+     0,
+     1008
+    ],
+    [
+     "tutorial/dependencies/dependencies-with-yield.md",
+     1681,
+     2741
+    ],
+    [
+     "release-notes.md",
+     407096,
+     408385
+    ],
+    [
+     "tutorial/dependencies/dependencies-with-yield.md",
+     842,
+     1842
+    ],
+    [
+     "tutorial/dependencies/dependencies-with-yield.md",
+     7292,
+     8326
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q043",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 325.5,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "alternatives.md",
+     8398,
+     9537
+    ],
+    [
+     "alternatives.md",
+     9327,
+     10325
+    ],
+    [
+     "alternatives.md",
+     17051,
+     18269
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     4758,
+     5932
+    ],
+    [
+     "how-to/extending-openapi.md",
+     2627,
+     3549
+    ],
+    [
+     "alternatives.md",
+     10166,
+     11353
+    ],
+    [
+     "tutorial/first-steps.md",
+     4650,
+     5659
+    ],
+    [
+     "tutorial/first-steps.md",
+     5520,
+     6570
+    ],
+    [
+     "alternatives.md",
+     16150,
+     17266
+    ],
+    [
+     "tutorial/first-steps.md",
+     3974,
+     4776
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q044",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 352.0,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "reference/dependencies.md",
+     0,
+     670
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     5503,
+     6602
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     4613,
+     5659
+    ],
+    [
+     "tutorial/dependencies/classes-as-dependencies.md",
+     1679,
+     2752
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     3708,
+     4755
+    ],
+    [
+     "release-notes.md",
+     596771,
+     597949
+    ],
+    [
+     "index.md",
+     23729,
+     24769
+    ],
+    [
+     "reference/fastapi.md",
+     0,
+     723
+    ],
+    [
+     "reference/security/index.md",
+     0,
+     1345
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     1820,
+     2950
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q045",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 376.6,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "how-to/authentication-error-status-code.md",
+     0,
+     1099
+    ],
+    [
+     "deployment/concepts.md",
+     7319,
+     8508
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "release-notes.md",
+     142721,
+     143612
+    ],
+    [
+     "release-notes.md",
+     516083,
+     517066
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "release-notes.md",
+     698916,
+     699704
+    ],
+    [
+     "release-notes.md",
+     515144,
+     516254
+    ],
+    [
+     "release-notes.md",
+     582826,
+     583670
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q046",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 281.6,
+   "top_score": 0.028991596638655463,
+   "hits": [
+    [
+     "async.md",
+     14324,
+     15535
+    ],
+    [
+     "help-fastapi.md",
+     0,
+     903
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "fastapi-cli.md",
+     0,
+     941
+    ],
+    [
+     "history-design-future.md",
+     929,
+     2149
+    ],
+    [
+     "project-generation.md",
+     0,
+     1040
+    ],
+    [
+     "help-fastapi.md",
+     2242,
+     3327
+    ],
+    [
+     "benchmarks.md",
+     2023,
+     3264
+    ],
+    [
+     "learn/index.md",
+     0,
+     202
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q047",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 287.0,
+   "top_score": 0.0287391216352965,
+   "hits": [
+    [
+     "how-to/custom-docs-ui-assets.md",
+     5533,
+     6558
+    ],
+    [
+     "fastapi-cli.md",
+     0,
+     941
+    ],
+    [
+     "index.md",
+     15378,
+     16278
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     857,
+     1925
+    ],
+    [
+     "editor-support.md",
+     0,
+     1095
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "release-notes.md",
+     713824,
+     714644
+    ],
+    [
+     "benchmarks.md",
+     2023,
+     3264
+    ],
+    [
+     "project-generation.md",
+     0,
+     1040
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q048",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 299.2,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "tutorial/body-multiple-params.md",
+     3351,
+     4293
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     855,
+     1753
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     0,
+     959
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     1610,
+     2663
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     4165,
+     4931
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     2527,
+     3478
+    ],
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "advanced/additional-responses.md",
+     970,
+     2061
+    ],
+    [
+     "tutorial/request-files.md",
+     794,
+     1860
+    ],
+    [
+     "tutorial/body.md",
+     5858,
+     6610
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q049",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 278.8,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/security/http-basic-auth.md",
+     0,
+     1080
+    ],
+    [
+     "release-notes.md",
+     702383,
+     703142
+    ],
+    [
+     "deployment/https.md",
+     12590,
+     13524
+    ],
+    [
+     "release-notes.md",
+     7598,
+     8596
+    ],
+    [
+     "deployment/https.md",
+     11713,
+     12697
+    ],
+    [
+     "deployment/https.md",
+     828,
+     1785
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     3211,
+     4244
+    ],
+    [
+     "deployment/https.md",
+     8831,
+     9945
+    ],
+    [
+     "tutorial/cors.md",
+     3384,
+     4402
+    ],
+    [
+     "reference/responses.md",
+     2539,
+     4545
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q050",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 332.6,
+   "top_score": 0.030798389007344232,
+   "hits": [
+    [
+     "advanced/testing-dependencies.md",
+     1087,
+     2162
+    ],
+    [
+     "tutorial/dependencies/dependencies-with-yield.md",
+     2594,
+     3643
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     1775,
+     2705
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     2776,
+     3814
+    ],
+    [
+     "reference/dependencies.md",
+     0,
+     670
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     7907,
+     9102
+    ],
+    [
+     "tutorial/dependencies/dependencies-in-path-operation-decorators.md",
+     1894,
+     2953
+    ],
+    [
+     "tutorial/dependencies/sub-dependencies.md",
+     0,
+     1022
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     1820,
+     2950
+    ],
+    [
+     "tutorial/dependencies/dependencies-with-yield.md",
+     0,
+     1008
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 1.0,
+   "mrr": 0.14285714285714285,
+   "ndcg@10": 0.3333333333333333
+  },
+  {
+   "id": "q051",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 295.5,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "reference/websockets.md",
+     0,
+     1600
+    ],
+    [
+     "advanced/websockets.md",
+     0,
+     1095
+    ],
+    [
+     "reference/fastapi.md",
+     0,
+     723
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "advanced/websockets.md",
+     917,
+     1907
+    ],
+    [
+     "advanced/websockets.md",
+     2438,
+     3366
+    ],
+    [
+     "reference/websockets.md",
+     1397,
+     2006
+    ],
+    [
+     "tutorial/bigger-applications.md",
+     10375,
+     11334
+    ],
+    [
+     "reference/apirouter.md",
+     0,
+     546
+    ],
+    [
+     "reference/request.md",
+     0,
+     651
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q052",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 281.2,
+   "top_score": 0.0315136476426799,
+   "hits": [
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     4758,
+     5932
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     2822,
+     3901
+    ],
+    [
+     "advanced/generate-clients.md",
+     4191,
+     5224
+    ],
+    [
+     "how-to/extending-openapi.md",
+     0,
+     1061
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     3761,
+     4953
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     1850,
+     2985
+    ],
+    [
+     "how-to/extending-openapi.md",
+     1822,
+     2761
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     0,
+     1092
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     934,
+     2050
+    ],
+    [
+     "how-to/general.md",
+     943,
+     2072
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6309297535714575
+  },
+  {
+   "id": "q053",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 312.3,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "advanced/wsgi.md",
+     0,
+     1003
+    ],
+    [
+     "advanced/sub-applications.md",
+     0,
+     1034
+    ],
+    [
+     "advanced/middleware.md",
+     979,
+     2223
+    ],
+    [
+     "advanced/sub-applications.md",
+     2350,
+     2955
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     13987,
+     14872
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "advanced/sub-applications.md",
+     921,
+     1697
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q054",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 280.7,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/testing-dependencies.md",
+     0,
+     1247
+    ],
+    [
+     "tutorial/testing.md",
+     774,
+     1823
+    ],
+    [
+     "tutorial/security/index.md",
+     3023,
+     4301
+    ],
+    [
+     "how-to/authentication-error-status-code.md",
+     0,
+     1099
+    ],
+    [
+     "advanced/strict-content-type.md",
+     0,
+     1081
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     12237,
+     13417
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     7133,
+     8068
+    ],
+    [
+     "tutorial/security/index.md",
+     0,
+     1166
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     6108,
+     7039
+    ],
+    [
+     "advanced/async-tests.md",
+     0,
+     1218
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q055",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 275.0,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/cookie-param-models.md",
+     0,
+     926
+    ],
+    [
+     "release-notes.md",
+     278694,
+     279742
+    ],
+    [
+     "tutorial/cookie-param-models.md",
+     3293,
+     4217
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     4594,
+     5628
+    ],
+    [
+     "tutorial/query-param-models.md",
+     3526,
+     4346
+    ],
+    [
+     "tutorial/query-param-models.md",
+     0,
+     944
+    ],
+    [
+     "tutorial/header-param-models.md",
+     0,
+     940
+    ],
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "release-notes.md",
+     277045,
+     277954
+    ],
+    [
+     "advanced/dataclasses.md",
+     0,
+     1063
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q056",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 297.9,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "advanced/opentelemetry.md",
+     2880,
+     4057
+    ],
+    [
+     "advanced/opentelemetry.md",
+     3825,
+     5156
+    ],
+    [
+     "release-notes.md",
+     17189,
+     18112
+    ],
+    [
+     "advanced/opentelemetry.md",
+     1835,
+     3012
+    ],
+    [
+     "release-notes.md",
+     16546,
+     17387
+    ],
+    [
+     "advanced/opentelemetry.md",
+     0,
+     1197
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "advanced/opentelemetry.md",
+     7026,
+     7987
+    ],
+    [
+     "advanced/opentelemetry.md",
+     1034,
+     2024
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q057",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 312.1,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/settings.md",
+     8458,
+     9573
+    ],
+    [
+     "advanced/settings.md",
+     9365,
+     10476
+    ],
+    [
+     "advanced/settings.md",
+     10317,
+     11352
+    ],
+    [
+     "tutorial/dependencies/sub-dependencies.md",
+     1775,
+     2902
+    ],
+    [
+     "async.md",
+     22618,
+     23684
+    ],
+    [
+     "release-notes.md",
+     688925,
+     689929
+    ],
+    [
+     "advanced/settings.md",
+     11207,
+     11807
+    ],
+    [
+     "release-notes.md",
+     688026,
+     689105
+    ],
+    [
+     "deployment/docker.md",
+     11558,
+     12644
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     5710,
+     6753
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q058",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 304.2,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "tutorial/path-operation-configuration.md",
+     2666,
+     3724
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     1850,
+     2985
+    ],
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "advanced/additional-responses.md",
+     6597,
+     7716
+    ],
+    [
+     "tutorial/path-operation-configuration.md",
+     0,
+     1089
+    ],
+    [
+     "advanced/additional-responses.md",
+     0,
+     1154
+    ],
+    [
+     "advanced/response-cookies.md",
+     0,
+     1091
+    ],
+    [
+     "advanced/custom-response.md",
+     3591,
+     4671
+    ],
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q059",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 265.5,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/security/oauth2-jwt.md",
+     3740,
+     4933
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     4491,
+     5525
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     3615,
+     4693
+    ],
+    [
+     "tutorial/extra-models.md",
+     3134,
+     4308
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     8677,
+     9578
+    ],
+    [
+     "tutorial/response-model.md",
+     4432,
+     5470
+    ],
+    [
+     "tutorial/extra-models.md",
+     0,
+     935
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     7386,
+     8428
+    ],
+    [
+     "tutorial/security/first-steps.md",
+     2278,
+     3353
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     0,
+     1033
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q060",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 309.8,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/additional-responses.md",
+     5620,
+     6773
+    ],
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "advanced/additional-responses.md",
+     0,
+     1154
+    ],
+    [
+     "advanced/custom-response.md",
+     5427,
+     6491
+    ],
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "advanced/custom-response.md",
+     3591,
+     4671
+    ],
+    [
+     "advanced/custom-response.md",
+     4538,
+     5572
+    ],
+    [
+     "advanced/additional-responses.md",
+     6597,
+     7716
+    ],
+    [
+     "tutorial/response-model.md",
+     9947,
+     11069
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q061",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 282.8,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/additional-status-codes.md",
+     0,
+     1127
+    ],
+    [
+     "reference/status.md",
+     0,
+     860
+    ],
+    [
+     "advanced/additional-responses.md",
+     0,
+     1154
+    ],
+    [
+     "advanced/additional-status-codes.md",
+     980,
+     2001
+    ],
+    [
+     "advanced/additional-responses.md",
+     6597,
+     7716
+    ],
+    [
+     "tutorial/response-status-code.md",
+     771,
+     1813
+    ],
+    [
+     "tutorial/response-status-code.md",
+     2498,
+     3501
+    ],
+    [
+     "tutorial/first-steps.md",
+     12453,
+     13383
+    ],
+    [
+     "advanced/additional-responses.md",
+     5620,
+     6773
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     1850,
+     2985
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q062",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 308.4,
+   "top_score": 0.03225806451612903,
+   "hits": [
+    [
+     "tutorial/schema-extra-example.md",
+     6432,
+     7438
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     7293,
+     8267
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     3292,
+     4279
+    ],
+    [
+     "how-to/extending-openapi.md",
+     0,
+     1061
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     8111,
+     8951
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     881,
+     1852
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     4903,
+     5867
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     5754,
+     6575
+    ],
+    [
+     "how-to/extending-openapi.md",
+     1822,
+     2761
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     2435,
+     3451
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 1.0,
+   "mrr": 0.125,
+   "ndcg@10": 0.31546487678572877
+  },
+  {
+   "id": "q063",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 265.8,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/middleware.md",
+     2062,
+     3182
+    ],
+    [
+     "advanced/opentelemetry.md",
+     5993,
+     7194
+    ],
+    [
+     "release-notes.md",
+     10200,
+     11335
+    ],
+    [
+     "advanced/strict-content-type.md",
+     0,
+     1081
+    ],
+    [
+     "release-notes.md",
+     8426,
+     9494
+    ],
+    [
+     "deployment/https.md",
+     7035,
+     8062
+    ],
+    [
+     "advanced/strict-content-type.md",
+     1754,
+     2873
+    ],
+    [
+     "release-notes.md",
+     11155,
+     12244
+    ],
+    [
+     "tutorial/cors.md",
+     3384,
+     4402
+    ],
+    [
+     "advanced/using-request-directly.md",
+     930,
+     2047
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q064",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 295.1,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "advanced/async-tests.md",
+     0,
+     1218
+    ],
+    [
+     "advanced/async-tests.md",
+     1031,
+     1986
+    ],
+    [
+     "advanced/async-tests.md",
+     2605,
+     3664
+    ],
+    [
+     "advanced/async-tests.md",
+     1855,
+     2702
+    ],
+    [
+     "tutorial/testing.md",
+     0,
+     934
+    ],
+    [
+     "tutorial/testing.md",
+     774,
+     1823
+    ],
+    [
+     "async.md",
+     17219,
+     18221
+    ],
+    [
+     "advanced/testing-events.md",
+     0,
+     623
+    ],
+    [
+     "async.md",
+     19786,
+     20867
+    ],
+    [
+     "async.md",
+     16316,
+     17367
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q065",
+   "type": "single",
+   "answerable": true,
+   "latency_ms": 282.2,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/query-param-models.md",
+     2457,
+     3686
+    ],
+    [
+     "tutorial/query-param-models.md",
+     0,
+     944
+    ],
+    [
+     "tutorial/header-param-models.md",
+     2602,
+     3759
+    ],
+    [
+     "tutorial/query-params.md",
+     2928,
+     3924
+    ],
+    [
+     "tutorial/query-param-models.md",
+     3526,
+     4346
+    ],
+    [
+     "tutorial/header-param-models.md",
+     0,
+     940
+    ],
+    [
+     "tutorial/cookie-param-models.md",
+     0,
+     926
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     4594,
+     5628
+    ],
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "release-notes.md",
+     277045,
+     277954
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q066",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 284.2,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "alternatives.md",
+     16150,
+     17266
+    ],
+    [
+     "alternatives.md",
+     18086,
+     19264
+    ],
+    [
+     "python-types.md",
+     9685,
+     10742
+    ],
+    [
+     "alternatives.md",
+     19132,
+     20228
+    ],
+    [
+     "history-design-future.md",
+     929,
+     2149
+    ],
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "alternatives.md",
+     13066,
+     14264
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     2725,
+     3752
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     933,
+     1969
+    ],
+    [
+     "advanced/dataclasses.md",
+     0,
+     1063
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 0.8772153153380493
+  },
+  {
+   "id": "q067",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 322.0,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "tutorial/query-params-str-validations.md",
+     3267,
+     4276
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     895,
+     1824
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     5710,
+     6753
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     4932,
+     5851
+    ],
+    [
+     "tutorial/path-params-numeric-validations.md",
+     1760,
+     2728
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     4329,
+     5338
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     1691,
+     2613
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     4112,
+     5101
+    ],
+    [
+     "tutorial/dependencies/classes-as-dependencies.md",
+     4241,
+     5153
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     2471,
+     3401
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6509209298071326
+  },
+  {
+   "id": "q068",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 256.4,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "advanced/openapi-callbacks.md",
+     1840,
+     2885
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     2718,
+     3787
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     3629,
+     4689
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     0,
+     1111
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     946,
+     1974
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     6108,
+     7039
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     6884,
+     7855
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     5382,
+     6228
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     5533,
+     6558
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     4524,
+     5528
+    ]
+   ],
+   "recall@5": 0.5,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.5802792108518124
+  },
+  {
+   "id": "q069",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 299.2,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     0,
+     1080
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     2725,
+     3752
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     1827,
+     2849
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     5493,
+     6310
+    ],
+    [
+     "deployment/versions.md",
+     2531,
+     3509
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     933,
+     1969
+    ],
+    [
+     "advanced/dataclasses.md",
+     0,
+     1063
+    ],
+    [
+     "release-notes.md",
+     152804,
+     153737
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     4594,
+     5628
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q070",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 296.6,
+   "top_score": 0.030886196246139225,
+   "hits": [
+    [
+     "tutorial/query-param-models.md",
+     2457,
+     3686
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     0,
+     1031
+    ],
+    [
+     "tutorial/query-params.md",
+     2928,
+     3924
+    ],
+    [
+     "tutorial/query-param-models.md",
+     0,
+     944
+    ],
+    [
+     "tutorial/path-params-numeric-validations.md",
+     0,
+     1070
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     2471,
+     3401
+    ],
+    [
+     "tutorial/query-param-models.md",
+     3526,
+     4346
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     14273,
+     15301
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     895,
+     1824
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     12506,
+     13549
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.5,
+   "mrr": 0.125,
+   "ndcg@10": 0.19342640361727081
+  },
+  {
+   "id": "q071",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 317.9,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "advanced/custom-response.md",
+     3591,
+     4671
+    ],
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "advanced/additional-responses.md",
+     6597,
+     7716
+    ],
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "reference/responses.md",
+     0,
+     1233
+    ],
+    [
+     "advanced/custom-response.md",
+     9829,
+     10943
+    ],
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "advanced/custom-response.md",
+     2753,
+     3774
+    ],
+    [
+     "advanced/additional-responses.md",
+     0,
+     1154
+    ],
+    [
+     "advanced/response-directly.md",
+     3398,
+     4136
+    ]
+   ],
+   "recall@5": 0.5,
+   "recall@10": 0.5,
+   "mrr": 1.0,
+   "ndcg@10": 0.6131471927654584
+  },
+  {
+   "id": "q072",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 333.2,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/additional-responses.md",
+     6597,
+     7716
+    ],
+    [
+     "advanced/additional-responses.md",
+     0,
+     1154
+    ],
+    [
+     "tutorial/response-model.md",
+     2622,
+     3774
+    ],
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "tutorial/response-model.md",
+     10894,
+     11955
+    ],
+    [
+     "advanced/additional-responses.md",
+     5620,
+     6773
+    ],
+    [
+     "advanced/response-directly.md",
+     0,
+     994
+    ],
+    [
+     "tutorial/response-model.md",
+     14187,
+     15261
+    ],
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "advanced/response-directly.md",
+     2603,
+     3570
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q073",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 299.3,
+   "top_score": 0.032018442622950824,
+   "hits": [
+    [
+     "advanced/additional-status-codes.md",
+     0,
+     1127
+    ],
+    [
+     "tutorial/response-status-code.md",
+     771,
+     1813
+    ],
+    [
+     "reference/status.md",
+     0,
+     860
+    ],
+    [
+     "advanced/additional-responses.md",
+     6597,
+     7716
+    ],
+    [
+     "advanced/custom-response.md",
+     0,
+     1099
+    ],
+    [
+     "advanced/additional-responses.md",
+     0,
+     1154
+    ],
+    [
+     "advanced/custom-response.md",
+     4538,
+     5572
+    ],
+    [
+     "tutorial/response-status-code.md",
+     0,
+     924
+    ],
+    [
+     "advanced/response-change-status-code.md",
+     0,
+     1023
+    ],
+    [
+     "reference/responses.md",
+     0,
+     1233
+    ]
+   ],
+   "recall@5": 0.5,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.5802792108518124
+  },
+  {
+   "id": "q074",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 269.2,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/schema-extra-example.md",
+     2435,
+     3451
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     3292,
+     4279
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     7293,
+     8267
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     8111,
+     8951
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     1738,
+     2568
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     6432,
+     7438
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     5533,
+     6558
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     881,
+     1852
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     4114,
+     5055
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     857,
+     1925
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q075",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 321.6,
+   "top_score": 0.031754032258064516,
+   "hits": [
+    [
+     "advanced/events.md",
+     3523,
+     4494
+    ],
+    [
+     "advanced/events.md",
+     1759,
+     2809
+    ],
+    [
+     "advanced/events.md",
+     4348,
+     5398
+    ],
+    [
+     "advanced/async-tests.md",
+     0,
+     1218
+    ],
+    [
+     "deployment/concepts.md",
+     7319,
+     8508
+    ],
+    [
+     "deployment/concepts.md",
+     9316,
+     10471
+    ],
+    [
+     "alternatives.md",
+     2950,
+     3993
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "release-notes.md",
+     472127,
+     473263
+    ],
+    [
+     "async.md",
+     18077,
+     19011
+    ]
+   ],
+   "recall@5": 0.5,
+   "recall@10": 0.5,
+   "mrr": 1.0,
+   "ndcg@10": 0.6131471927654584
+  },
+  {
+   "id": "q076",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 277.5,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "advanced/security/http-basic-auth.md",
+     1767,
+     2757
+    ],
+    [
+     "advanced/security/http-basic-auth.md",
+     3571,
+     4716
+    ],
+    [
+     "advanced/security/http-basic-auth.md",
+     932,
+     1893
+    ],
+    [
+     "advanced/security/http-basic-auth.md",
+     2617,
+     3776
+    ],
+    [
+     "tutorial/security/oauth2-jwt.md",
+     3740,
+     4933
+    ],
+    [
+     "tutorial/security/index.md",
+     0,
+     1166
+    ],
+    [
+     "advanced/strict-content-type.md",
+     0,
+     1081
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     0,
+     1033
+    ],
+    [
+     "tutorial/security/oauth2-jwt.md",
+     4761,
+     5824
+    ],
+    [
+     "tutorial/stream-json-lines.md",
+     3241,
+     4164
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.5,
+   "ndcg@10": 0.6934264036172708
+  },
+  {
+   "id": "q077",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 305.2,
+   "top_score": 0.03200204813108039,
+   "hits": [
+    [
+     "tutorial/body-nested-models.md",
+     0,
+     973
+    ],
+    [
+     "advanced/using-request-directly.md",
+     0,
+     1119
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     1610,
+     2663
+    ],
+    [
+     "index.md",
+     14638,
+     15527
+    ],
+    [
+     "tutorial/body-nested-models.md",
+     4858,
+     5904
+    ],
+    [
+     "features.md",
+     2443,
+     3458
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     3351,
+     4293
+    ],
+    [
+     "python-types.md",
+     9685,
+     10742
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     855,
+     1753
+    ],
+    [
+     "alternatives.md",
+     2950,
+     3993
+    ]
+   ],
+   "recall@5": 0.5,
+   "recall@10": 0.5,
+   "mrr": 1.0,
+   "ndcg@10": 0.6131471927654584
+  },
+  {
+   "id": "q078",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 309.1,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "tutorial/frontend.md",
+     927,
+     1812
+    ],
+    [
+     "advanced/generate-clients.md",
+     4191,
+     5224
+    ],
+    [
+     "tutorial/frontend.md",
+     1684,
+     2695
+    ],
+    [
+     "tutorial/frontend.md",
+     5132,
+     6290
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     7246,
+     8211
+    ],
+    [
+     "tutorial/first-steps.md",
+     8858,
+     9689
+    ],
+    [
+     "advanced/generate-clients.md",
+     5080,
+     6109
+    ],
+    [
+     "tutorial/frontend.md",
+     3362,
+     4349
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     4081,
+     5081
+    ],
+    [
+     "tutorial/bigger-applications.md",
+     16862,
+     17935
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.3333333333333333,
+   "ndcg@10": 0.5706417189553201
+  },
+  {
+   "id": "q079",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 271.5,
+   "top_score": 0.03177805800756621,
+   "hits": [
+    [
+     "advanced/security/oauth2-scopes.md",
+     3708,
+     4755
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     5503,
+     6602
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     2776,
+     3814
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     4613,
+     5659
+    ],
+    [
+     "tutorial/dependencies/dependencies-with-yield.md",
+     8216,
+     9189
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     2584,
+     3599
+    ],
+    [
+     "release-notes.md",
+     697059,
+     698251
+    ],
+    [
+     "tutorial/dependencies/dependencies-with-yield.md",
+     9054,
+     10234
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     10411,
+     11570
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     6897,
+     8099
+    ]
+   ],
+   "recall@5": 0.5,
+   "recall@10": 0.5,
+   "mrr": 1.0,
+   "ndcg@10": 0.6131471927654584
+  },
+  {
+   "id": "q080",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 278.8,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "tutorial/background-tasks.md",
+     1895,
+     2993
+    ],
+    [
+     "tutorial/background-tasks.md",
+     1026,
+     2044
+    ],
+    [
+     "tutorial/dependencies/dependencies-in-path-operation-decorators.md",
+     0,
+     1132
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     6897,
+     8099
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     2584,
+     3599
+    ],
+    [
+     "tutorial/dependencies/dependencies-with-yield.md",
+     8216,
+     9189
+    ],
+    [
+     "tutorial/dependencies/global-dependencies.md",
+     0,
+     1059
+    ],
+    [
+     "tutorial/background-tasks.md",
+     0,
+     1178
+    ],
+    [
+     "release-notes.md",
+     407096,
+     408385
+    ],
+    [
+     "release-notes.md",
+     408178,
+     409542
+    ]
+   ],
+   "recall@5": 0.5,
+   "recall@10": 0.5,
+   "mrr": 0.5,
+   "ndcg@10": 0.38685280723454163
+  },
+  {
+   "id": "q081",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 297.8,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "tutorial/index.md",
+     6014,
+     7086
+    ],
+    [
+     "tutorial/index.md",
+     5117,
+     6168
+    ],
+    [
+     "advanced/strict-content-type.md",
+     912,
+     1898
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     881,
+     1852
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     7293,
+     8267
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     6432,
+     7438
+    ],
+    [
+     "release-notes.md",
+     94194,
+     94986
+    ],
+    [
+     "advanced/settings.md",
+     2847,
+     3734
+    ],
+    [
+     "_llm-test.md",
+     2641,
+     3501
+    ],
+    [
+     "release-notes.md",
+     94863,
+     95629
+    ]
+   ],
+   "recall@5": 0.5,
+   "recall@10": 0.5,
+   "mrr": 1.0,
+   "ndcg@10": 0.6131471927654584
+  },
+  {
+   "id": "q082",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 276.3,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "deployment/server-workers.md",
+     962,
+     1917
+    ],
+    [
+     "deployment/docker.md",
+     26190,
+     27239
+    ],
+    [
+     "deployment/concepts.md",
+     9316,
+     10471
+    ],
+    [
+     "deployment/docker.md",
+     21697,
+     22739
+    ],
+    [
+     "deployment/server-workers.md",
+     0,
+     1118
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "deployment/server-workers.md",
+     6883,
+     7923
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ]
+   ],
+   "recall@5": 0.5,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 0.8175295903539445
+  },
+  {
+   "id": "q083",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 287.0,
+   "top_score": 0.03200204813108039,
+   "hits": [
+    [
+     "tutorial/security/get-current-user.md",
+     0,
+     1040
+    ],
+    [
+     "tutorial/security/get-current-user.md",
+     873,
+     1865
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     8943,
+     9767
+    ],
+    [
+     "advanced/generate-clients.md",
+     4191,
+     5224
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     5957,
+     7079
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     2584,
+     3599
+    ],
+    [
+     "release-notes.md",
+     467126,
+     468066
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     6897,
+     8099
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     6211,
+     7278
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     4613,
+     5659
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q084",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 270.9,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "tutorial/metadata.md",
+     1310,
+     1971
+    ],
+    [
+     "tutorial/metadata.md",
+     1861,
+     2518
+    ],
+    [
+     "tutorial/metadata.md",
+     724,
+     1387
+    ],
+    [
+     "tutorial/metadata.md",
+     2409,
+     3368
+    ],
+    [
+     "tutorial/request-form-models.md",
+     2362,
+     3543
+    ],
+    [
+     "tutorial/request-forms.md",
+     776,
+     1751
+    ],
+    [
+     "how-to/separate-openapi-schemas.md",
+     801,
+     1710
+    ],
+    [
+     "release-notes.md",
+     150662,
+     151569
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     2718,
+     3787
+    ],
+    [
+     "tutorial/body-fields.md",
+     809,
+     1874
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 0.9197207891481876
+  },
+  {
+   "id": "q085",
+   "type": "multi",
+   "answerable": true,
+   "latency_ms": 272.2,
+   "top_score": 0.030536130536130537,
+   "hits": [
+    [
+     "tutorial/body-multiple-params.md",
+     0,
+     959
+    ],
+    [
+     "release-notes.md",
+     8426,
+     9494
+    ],
+    [
+     "tutorial/body.md",
+     0,
+     987
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     3351,
+     4293
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     2527,
+     3478
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     1610,
+     2663
+    ],
+    [
+     "tutorial/body-multiple-params.md",
+     4165,
+     4931
+    ],
+    [
+     "advanced/strict-content-type.md",
+     0,
+     1081
+    ],
+    [
+     "tutorial/body.md",
+     1689,
+     2546
+    ],
+    [
+     "tutorial/body-nested-models.md",
+     1710,
+     2640
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 0.8503449055347546
+  },
+  {
+   "id": "q086",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 261.7,
+   "top_score": 0.02803379416282642,
+   "hits": [
+    [
+     "tutorial/path-params.md",
+     2103,
+     3148
+    ],
+    [
+     "tutorial/index.md",
+     5117,
+     6168
+    ],
+    [
+     "editor-support.md",
+     0,
+     1095
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "fastapi-cli.md",
+     0,
+     941
+    ],
+    [
+     "python-types.md",
+     9685,
+     10742
+    ],
+    [
+     "release-notes.md",
+     325730,
+     326561
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "advanced/path-operation-advanced-configuration.md",
+     1850,
+     2985
+    ],
+    [
+     "release-notes.md",
+     596771,
+     597949
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q087",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 300.0,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "tutorial/background-tasks.md",
+     1026,
+     2044
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "alternatives.md",
+     2950,
+     3993
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "fastapi-cli.md",
+     3297,
+     4214
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "advanced/middleware.md",
+     979,
+     2223
+    ],
+    [
+     "tutorial/bigger-applications.md",
+     16862,
+     17935
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 1.0,
+   "mrr": 0.1111111111111111,
+   "ndcg@10": 0.3010299956639812
+  },
+  {
+   "id": "q088",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 279.5,
+   "top_score": 0.0315136476426799,
+   "hits": [
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "tutorial/first-steps.md",
+     8858,
+     9689
+    ],
+    [
+     "advanced/additional-responses.md",
+     970,
+     2061
+    ],
+    [
+     "advanced/custom-response.md",
+     9829,
+     10943
+    ],
+    [
+     "fastapi-cli.md",
+     0,
+     941
+    ],
+    [
+     "tutorial/stream-json-lines.md",
+     2490,
+     3381
+    ],
+    [
+     "tutorial/first-steps.md",
+     12453,
+     13383
+    ],
+    [
+     "advanced/response-directly.md",
+     0,
+     994
+    ],
+    [
+     "tutorial/index.md",
+     3352,
+     4295
+    ],
+    [
+     "tutorial/schema-extra-example.md",
+     7293,
+     8267
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q089",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 300.8,
+   "top_score": 0.03149801587301587,
+   "hits": [
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "fastapi-cli.md",
+     3297,
+     4214
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "tutorial/first-steps.md",
+     6376,
+     7330
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "advanced/generate-clients.md",
+     2486,
+     3480
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "deployment/fastapicloud.md",
+     848,
+     1735
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q090",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 270.5,
+   "top_score": 0.030834914611005692,
+   "hits": [
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     5533,
+     6558
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "fastapi-cli.md",
+     3297,
+     4214
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "index.md",
+     21141,
+     22233
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "tutorial/bigger-applications.md",
+     16862,
+     17935
+    ],
+    [
+     "tutorial/first-steps.md",
+     6376,
+     7330
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q091",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 269.6,
+   "top_score": 0.027056277056277056,
+   "hits": [
+    [
+     "async.md",
+     22618,
+     23684
+    ],
+    [
+     "tutorial/response-model.md",
+     6217,
+     7340
+    ],
+    [
+     "advanced/additional-responses.md",
+     5620,
+     6773
+    ],
+    [
+     "tutorial/stream-json-lines.md",
+     2490,
+     3381
+    ],
+    [
+     "advanced/settings.md",
+     9365,
+     10476
+    ],
+    [
+     "tutorial/response-model.md",
+     5341,
+     6391
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "release-notes.md",
+     698916,
+     699704
+    ],
+    [
+     "tutorial/background-tasks.md",
+     1026,
+     2044
+    ],
+    [
+     "advanced/async-tests.md",
+     0,
+     1218
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q092",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 322.7,
+   "top_score": 0.03128054740957967,
+   "hits": [
+    [
+     "tutorial/sql-databases.md",
+     8722,
+     9542
+    ],
+    [
+     "tutorial/sql-databases.md",
+     12543,
+     13547
+    ],
+    [
+     "tutorial/request-form-models.md",
+     2362,
+     3543
+    ],
+    [
+     "release-notes.md",
+     10200,
+     11335
+    ],
+    [
+     "tutorial/cookie-param-models.md",
+     3293,
+     4217
+    ],
+    [
+     "tutorial/query-param-models.md",
+     2457,
+     3686
+    ],
+    [
+     "tutorial/query-param-models.md",
+     3526,
+     4346
+    ],
+    [
+     "tutorial/request-form-models.md",
+     3355,
+     4376
+    ],
+    [
+     "tutorial/sql-databases.md",
+     11760,
+     12694
+    ],
+    [
+     "release-notes.md",
+     7598,
+     8596
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q093",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 330.7,
+   "top_score": 0.030834914611005692,
+   "hits": [
+    [
+     "deployment/concepts.md",
+     5458,
+     6562
+    ],
+    [
+     "deployment/manually.md",
+     2598,
+     3639
+    ],
+    [
+     "deployment/concepts.md",
+     4564,
+     5620
+    ],
+    [
+     "deployment/fastapicloud.md",
+     848,
+     1735
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "deployment/concepts.md",
+     9316,
+     10471
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "fastapi-cli.md",
+     5859,
+     6671
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q094",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 295.4,
+   "top_score": 0.032018442622950824,
+   "hits": [
+    [
+     "tutorial/cookie-param-models.md",
+     3293,
+     4217
+    ],
+    [
+     "release-notes.md",
+     278694,
+     279742
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/query-param-models.md",
+     3526,
+     4346
+    ],
+    [
+     "tutorial/index.md",
+     5117,
+     6168
+    ],
+    [
+     "tutorial/cors.md",
+     1624,
+     2737
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "tutorial/cookie-param-models.md",
+     0,
+     926
+    ],
+    [
+     "advanced/response-cookies.md",
+     0,
+     1091
+    ],
+    [
+     "deployment/versions.md",
+     2531,
+     3509
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q095",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 281.0,
+   "top_score": 0.02797067901234568,
+   "hits": [
+    [
+     "help-fastapi.md",
+     0,
+     903
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "help-fastapi.md",
+     2242,
+     3327
+    ],
+    [
+     "tutorial/metadata.md",
+     0,
+     851
+    ],
+    [
+     "how-to/extending-openapi.md",
+     937,
+     1980
+    ],
+    [
+     "fastapi-cli.md",
+     0,
+     941
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     3629,
+     4689
+    ],
+    [
+     "advanced/generate-clients.md",
+     2486,
+     3480
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q096",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 297.3,
+   "top_score": 0.032018442622950824,
+   "hits": [
+    [
+     "advanced/custom-response.md",
+     926,
+     2087
+    ],
+    [
+     "tutorial/server-sent-events.md",
+     2298,
+     3246
+    ],
+    [
+     "benchmarks.md",
+     2023,
+     3264
+    ],
+    [
+     "advanced/custom-response.md",
+     9829,
+     10943
+    ],
+    [
+     "tutorial/stream-json-lines.md",
+     0,
+     990
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/stream-json-lines.md",
+     2490,
+     3381
+    ],
+    [
+     "fastapi-cli.md",
+     3297,
+     4214
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "deployment/manually.md",
+     0,
+     851
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q097",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 272.9,
+   "top_score": 0.03036576949620428,
+   "hits": [
+    [
+     "index.md",
+     21141,
+     22233
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "benchmarks.md",
+     2023,
+     3264
+    ],
+    [
+     "fastapi-cli.md",
+     3297,
+     4214
+    ],
+    [
+     "deployment/versions.md",
+     0,
+     1120
+    ],
+    [
+     "deployment/fastapicloud.md",
+     848,
+     1735
+    ],
+    [
+     "tutorial/first-steps.md",
+     6376,
+     7330
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q098",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 277.2,
+   "top_score": 0.03149801587301587,
+   "hits": [
+    [
+     "tutorial/security/first-steps.md",
+     3216,
+     4320
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     5372,
+     6327
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     6211,
+     7278
+    ],
+    [
+     "tutorial/security/oauth2-jwt.md",
+     5690,
+     6641
+    ],
+    [
+     "advanced/security/oauth2-scopes.md",
+     11368,
+     12417
+    ],
+    [
+     "tutorial/security/oauth2-jwt.md",
+     6505,
+     7533
+    ],
+    [
+     "release-notes.md",
+     308926,
+     309760
+    ],
+    [
+     "tutorial/security/first-steps.md",
+     7674,
+     8356
+    ],
+    [
+     "tutorial/security/oauth2-jwt.md",
+     0,
+     1203
+    ],
+    [
+     "tutorial/security/get-current-user.md",
+     873,
+     1865
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q099",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 292.6,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "tutorial/security/simple-oauth2.md",
+     0,
+     1033
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     3615,
+     4693
+    ],
+    [
+     "tutorial/response-model.md",
+     4432,
+     5470
+    ],
+    [
+     "tutorial/security/oauth2-jwt.md",
+     1883,
+     3028
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     4491,
+     5525
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     1779,
+     2822
+    ],
+    [
+     "tutorial/security/oauth2-jwt.md",
+     3740,
+     4933
+    ],
+    [
+     "advanced/security/http-basic-auth.md",
+     0,
+     1080
+    ],
+    [
+     "tutorial/extra-models.md",
+     0,
+     935
+    ],
+    [
+     "advanced/security/http-basic-auth.md",
+     932,
+     1893
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q100",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 274.9,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "tutorial/body.md",
+     0,
+     987
+    ],
+    [
+     "advanced/openapi-webhooks.md",
+     0,
+     1013
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     0,
+     1111
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     946,
+     1974
+    ],
+    [
+     "advanced/openapi-callbacks.md",
+     2718,
+     3787
+    ],
+    [
+     "tutorial/first-steps.md",
+     9568,
+     10462
+    ],
+    [
+     "advanced/generate-clients.md",
+     1702,
+     2645
+    ],
+    [
+     "alternatives.md",
+     3833,
+     4725
+    ],
+    [
+     "tutorial/security/first-steps.md",
+     5091,
+     5974
+    ],
+    [
+     "how-to/conditional-openapi.md",
+     0,
+     1259
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 1.0,
+   "ndcg@10": 1.0
+  },
+  {
+   "id": "q101",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 283.4,
+   "top_score": 0.028169014084507043,
+   "hits": [
+    [
+     "tutorial/security/simple-oauth2.md",
+     0,
+     1033
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     8677,
+     9578
+    ],
+    [
+     "tutorial/security/index.md",
+     3023,
+     4301
+    ],
+    [
+     "tutorial/security/first-steps.md",
+     2278,
+     3353
+    ],
+    [
+     "tutorial/extra-models.md",
+     0,
+     935
+    ],
+    [
+     "tutorial/security/oauth2-jwt.md",
+     3740,
+     4933
+    ],
+    [
+     "advanced/websockets.md",
+     3924,
+     5097
+    ],
+    [
+     "tutorial/extra-models.md",
+     3134,
+     4308
+    ],
+    [
+     "tutorial/security/oauth2-jwt.md",
+     1883,
+     3028
+    ],
+    [
+     "how-to/conditional-openapi.md",
+     1056,
+     2195
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q102",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 305.9,
+   "top_score": 0.032266458495966696,
+   "hits": [
+    [
+     "advanced/advanced-python-types.md",
+     805,
+     1758
+    ],
+    [
+     "tutorial/query-params.md",
+     833,
+     1705
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     9224,
+     10210
+    ],
+    [
+     "tutorial/path-params-numeric-validations.md",
+     897,
+     1906
+    ],
+    [
+     "tutorial/query-params.md",
+     1530,
+     2378
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     7514,
+     8529
+    ],
+    [
+     "tutorial/request-form-models.md",
+     2362,
+     3543
+    ],
+    [
+     "tutorial/query-params-str-validations.md",
+     8368,
+     9353
+    ],
+    [
+     "advanced/advanced-python-types.md",
+     1624,
+     2070
+    ],
+    [
+     "how-to/custom-docs-ui-assets.md",
+     857,
+     1925
+    ]
+   ],
+   "recall@5": 1.0,
+   "recall@10": 1.0,
+   "mrr": 0.3333333333333333,
+   "ndcg@10": 0.5
+  },
+  {
+   "id": "q103",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 279.5,
+   "top_score": 0.031544957774465976,
+   "hits": [
+    [
+     "deployment/versions.md",
+     2531,
+     3509
+    ],
+    [
+     "advanced/async-tests.md",
+     0,
+     1218
+    ],
+    [
+     "async.md",
+     22618,
+     23684
+    ],
+    [
+     "advanced/async-tests.md",
+     1031,
+     1986
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/background-tasks.md",
+     1026,
+     2044
+    ],
+    [
+     "tutorial/testing.md",
+     1674,
+     2543
+    ],
+    [
+     "reference/status.md",
+     0,
+     860
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "features.md",
+     6094,
+     7080
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q104",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 270.7,
+   "top_score": 0.031099324975891997,
+   "hits": [
+    [
+     "tutorial/background-tasks.md",
+     1026,
+     2044
+    ],
+    [
+     "tutorial/background-tasks.md",
+     1895,
+     2993
+    ],
+    [
+     "advanced/settings.md",
+     10317,
+     11352
+    ],
+    [
+     "tutorial/background-tasks.md",
+     0,
+     1178
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     7458,
+     8680
+    ],
+    [
+     "async.md",
+     22618,
+     23684
+    ],
+    [
+     "advanced/advanced-dependencies.md",
+     8516,
+     9248
+    ],
+    [
+     "deployment/concepts.md",
+     6389,
+     7505
+    ],
+    [
+     "release-notes.md",
+     407096,
+     408385
+    ],
+    [
+     "tutorial/background-tasks.md",
+     3799,
+     4785
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 0.0,
+   "mrr": 0.0,
+   "ndcg@10": 0.0
+  },
+  {
+   "id": "q105",
+   "type": "paraphrase",
+   "answerable": true,
+   "latency_ms": 312.7,
+   "top_score": 0.026856524873828405,
+   "hits": [
+    [
+     "how-to/custom-docs-ui-assets.md",
+     5533,
+     6558
+    ],
+    [
+     "advanced/generate-clients.md",
+     2486,
+     3480
+    ],
+    [
+     "advanced/additional-responses.md",
+     5620,
+     6773
+    ],
+    [
+     "advanced/additional-responses.md",
+     6597,
+     7716
+    ],
+    [
+     "tutorial/first-steps.md",
+     3336,
+     4073
+    ],
+    [
+     "tutorial/stream-json-lines.md",
+     0,
+     990
+    ],
+    [
+     "advanced/openapi-webhooks.md",
+     0,
+     1013
+    ],
+    [
+     "index.md",
+     14638,
+     15527
+    ],
+    [
+     "advanced/websockets.md",
+     917,
+     1907
+    ],
+    [
+     "index.md",
+     11075,
+     11819
+    ]
+   ],
+   "recall@5": 0.0,
+   "recall@10": 1.0,
+   "mrr": 0.1,
+   "ndcg@10": 0.2890648263178879
+  },
+  {
+   "id": "q106",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 273.1,
+   "top_score": 0.03131881575727918,
+   "hits": [
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "tutorial/first-steps.md",
+     12453,
+     13383
+    ],
+    [
+     "deployment/docker.md",
+     15973,
+     17109
+    ],
+    [
+     "deployment/fastapicloud.md",
+     848,
+     1735
+    ],
+    [
+     "deployment/cloud.md",
+     0,
+     1050
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ]
+   ]
+  },
+  {
+   "id": "q107",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 277.1,
+   "top_score": 0.029551337359792925,
+   "hits": [
+    [
+     "tutorial/dependencies/index.md",
+     8943,
+     9767
+    ],
+    [
+     "tutorial/dependencies/index.md",
+     7907,
+     9102
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "how-to/authentication-error-status-code.md",
+     0,
+     1099
+    ],
+    [
+     "tutorial/frontend.md",
+     4179,
+     5278
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "tutorial/security/simple-oauth2.md",
+     8677,
+     9578
+    ],
+    [
+     "deployment/docker.md",
+     6110,
+     6995
+    ]
+   ]
+  },
+  {
+   "id": "q108",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 265.9,
+   "top_score": 0.02761904761904762,
+   "hits": [
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "release-notes.md",
+     305337,
+     306274
+    ],
+    [
+     "editor-support.md",
+     0,
+     1095
+    ],
+    [
+     "index.md",
+     22921,
+     23895
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "release-notes.md",
+     507662,
+     508409
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     12410,
+     13395
+    ],
+    [
+     "how-to/migrate-from-pydantic-v1-to-pydantic-v2.md",
+     0,
+     1080
+    ],
+    [
+     "release-notes.md",
+     103445,
+     104241
+    ],
+    [
+     "deployment/cloud.md",
+     0,
+     1050
+    ]
+   ]
+  },
+  {
+   "id": "q109",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 260.4,
+   "top_score": 0.030017921146953404,
+   "hits": [
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "advanced/opentelemetry.md",
+     1034,
+     2024
+    ],
+    [
+     "index.md",
+     21141,
+     22233
+    ],
+    [
+     "advanced/opentelemetry.md",
+     1835,
+     3012
+    ],
+    [
+     "release-notes.md",
+     305337,
+     306274
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "advanced/opentelemetry.md",
+     7026,
+     7987
+    ],
+    [
+     "advanced/sub-applications.md",
+     0,
+     1034
+    ],
+    [
+     "deployment/cloud.md",
+     0,
+     1050
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ]
+   ]
+  },
+  {
+   "id": "q110",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 331.4,
+   "top_score": 0.030798389007344232,
+   "hits": [
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "deployment/fastapicloud.md",
+     848,
+     1735
+    ],
+    [
+     "project-generation.md",
+     0,
+     1040
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "index.md",
+     21141,
+     22233
+    ],
+    [
+     "alternatives.md",
+     2950,
+     3993
+    ],
+    [
+     "advanced/behind-a-proxy.md",
+     12410,
+     13395
+    ]
+   ]
+  },
+  {
+   "id": "q111",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 280.0,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "index.md",
+     21141,
+     22233
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "deployment/fastapicloud.md",
+     848,
+     1735
+    ],
+    [
+     "deployment/cloud.md",
+     0,
+     1050
+    ],
+    [
+     "deployment/docker.md",
+     15973,
+     17109
+    ],
+    [
+     "fastapi-cli.md",
+     3297,
+     4214
+    ]
+   ]
+  },
+  {
+   "id": "q112",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 317.6,
+   "top_score": 0.03225806451612903,
+   "hits": [
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "advanced/opentelemetry.md",
+     1034,
+     2024
+    ],
+    [
+     "advanced/websockets.md",
+     1760,
+     2574
+    ],
+    [
+     "index.md",
+     21141,
+     22233
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "help-fastapi.md",
+     0,
+     903
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "editor-support.md",
+     1684,
+     2515
+    ]
+   ]
+  },
+  {
+   "id": "q113",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 272.1,
+   "top_score": 0.0315136476426799,
+   "hits": [
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "fastapi-cli.md",
+     3297,
+     4214
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "fastapi-cli.md",
+     4088,
+     5026
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "fastapi-cli.md",
+     0,
+     941
+    ],
+    [
+     "deployment/manually.md",
+     0,
+     851
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "tutorial/first-steps.md",
+     6376,
+     7330
+    ]
+   ]
+  },
+  {
+   "id": "q114",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 287.2,
+   "top_score": 0.029411764705882353,
+   "hits": [
+    [
+     "editor-support.md",
+     0,
+     1095
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/stream-json-lines.md",
+     2490,
+     3381
+    ],
+    [
+     "tutorial/server-sent-events.md",
+     728,
+     1686
+    ],
+    [
+     "advanced/opentelemetry.md",
+     1034,
+     2024
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "advanced/stream-data.md",
+     1649,
+     2650
+    ],
+    [
+     "release-notes.md",
+     324152,
+     324953
+    ],
+    [
+     "tutorial/index.md",
+     3352,
+     4295
+    ],
+    [
+     "deployment/manually.md",
+     0,
+     851
+    ]
+   ]
+  },
+  {
+   "id": "q115",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 265.5,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "deployment/cloud.md",
+     0,
+     1050
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "deployment/fastapicloud.md",
+     848,
+     1735
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "index.md",
+     21141,
+     22233
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "deployment/index.md",
+     0,
+     1095
+    ],
+    [
+     "deployment/docker.md",
+     15973,
+     17109
+    ]
+   ]
+  },
+  {
+   "id": "q116",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 274.8,
+   "top_score": 0.032018442622950824,
+   "hits": [
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "tutorial/first-steps.md",
+     13234,
+     14101
+    ],
+    [
+     "deployment/fastapicloud.md",
+     848,
+     1735
+    ],
+    [
+     "index.md",
+     21141,
+     22233
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "deployment/cloud.md",
+     0,
+     1050
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "deployment/docker.md",
+     15973,
+     17109
+    ],
+    [
+     "tutorial/first-steps.md",
+     12453,
+     13383
+    ]
+   ]
+  },
+  {
+   "id": "q117",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 280.0,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "tutorial/first-steps.md",
+     7216,
+     8161
+    ],
+    [
+     "tutorial/index.md",
+     5117,
+     6168
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "editor-support.md",
+     0,
+     1095
+    ],
+    [
+     "help-fastapi.md",
+     0,
+     903
+    ],
+    [
+     "release-notes.md",
+     98265,
+     99020
+    ],
+    [
+     "deployment/cloud.md",
+     0,
+     1050
+    ],
+    [
+     "release-notes.md",
+     324809,
+     325908
+    ]
+   ]
+  },
+  {
+   "id": "q118",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 276.8,
+   "top_score": 0.03252247488101534,
+   "hits": [
+    [
+     "how-to/graphql.md",
+     0,
+     948
+    ],
+    [
+     "index.md",
+     10325,
+     11208
+    ],
+    [
+     "help-fastapi.md",
+     0,
+     903
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "how-to/graphql.md",
+     810,
+     1735
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "project-generation.md",
+     0,
+     1040
+    ],
+    [
+     "editor-support.md",
+     0,
+     1095
+    ],
+    [
+     "help-fastapi.md",
+     2242,
+     3327
+    ],
+    [
+     "release-notes.md",
+     553804,
+     554711
+    ]
+   ]
+  },
+  {
+   "id": "q119",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 272.5,
+   "top_score": 0.0264808362369338,
+   "hits": [
+    [
+     "editor-support.md",
+     0,
+     1095
+    ],
+    [
+     "tutorial/first-steps.md",
+     8014,
+     9009
+    ],
+    [
+     "fastapi-cli.md",
+     5859,
+     6671
+    ],
+    [
+     "tutorial/first-steps.md",
+     12453,
+     13383
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "reference/fastapi.md",
+     0,
+     723
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "release-notes.md",
+     103445,
+     104241
+    ],
+    [
+     "deployment/cloud.md",
+     0,
+     1050
+    ],
+    [
+     "release-notes.md",
+     145429,
+     146238
+    ]
+   ]
+  },
+  {
+   "id": "q120",
+   "type": "unanswerable",
+   "answerable": false,
+   "latency_ms": 263.9,
+   "top_score": 0.03278688524590164,
+   "hits": [
+    [
+     "advanced/openapi-webhooks.md",
+     846,
+     1831
+    ],
+    [
+     "advanced/openapi-webhooks.md",
+     1671,
+     2641
+    ],
+    [
+     "reference/fastapi.md",
+     0,
+     723
+    ],
+    [
+     "index.md",
+     20263,
+     21297
+    ],
+    [
+     "fastapi-cli.md",
+     4898,
+     6037
+    ],
+    [
+     "advanced/opentelemetry.md",
+     5993,
+     7194
+    ],
+    [
+     "deployment/cloud.md",
+     0,
+     1050
+    ],
+    [
+     "deployment/fastapicloud.md",
+     0,
+     1011
+    ],
+    [
+     "release-notes.md",
+     38062,
+     38849
+    ],
+    [
+     "help-fastapi.md",
+     0,
+     903
+    ]
+   ]
+  }
+ ],
+ "name": "fixed-256-15__hybrid__norerank",
+ "questions_hash": "6bb93d4d89be"
+}
