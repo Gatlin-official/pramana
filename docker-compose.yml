@@ -1,0 +1,15 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: pramana
+      POSTGRES_PASSWORD: pramana
+      POSTGRES_DB: pramana
+    ports: ["5433:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pramana"]
+      interval: 2s
+      retries: 30
+volumes:
+  pgdata:
