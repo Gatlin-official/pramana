@@ -32,10 +32,34 @@ MARKER = re.compile(r"\[(\d+(?:\s*,\s*\d+)*)\]")
 ABSTAIN = re.compile(r"NOT_FOUND|not found in the (provided )?(documents|sources)|do(es)? not contain", re.I)
 
 
+REMINDER = "\n\nAnswer from the sources only, and end every sentence with its source number like [1]."
+# A 3B model needs to *see* the format: one cited answer and one abstention, then the real question.
+# Picked over zero-shot variants on a 7-question probe (zero-shot: bare "[1] [2]" or no citations).
+FEW_SHOT = [
+    {
+        "role": "user",
+        "content": "Sources:\n[1] (tutorial/body.md)\nTo declare a request body, you use Pydantic models.\n\n"
+        "[2] (tutorial/cookies.md)\nYou can define Cookie parameters the same way you define Query parameters."
+        f"\n\nQuestion: How do I read a cookie and a request body?{REMINDER}",
+    },
+    {
+        "role": "assistant",
+        "content": "Declare a Cookie parameter the same way you declare a Query parameter [2]. "
+        "For the request body, declare a Pydantic model [1].",
+    },
+    {
+        "role": "user",
+        "content": "Sources:\n[1] (tutorial/body.md)\nTo declare a request body, you use Pydantic models."
+        f"\n\nQuestion: How do I send email?{REMINDER}",
+    },
+    {"role": "assistant", "content": SENTINEL},
+]
+
+
 def build_messages(question: str, hits: list[Hit]) -> list[dict]:
     sources = "\n\n".join(f"[{i}] ({h.source})\n{h.text}" for i, h in enumerate(hits, 1))
-    user = f"Sources:\n{sources}\n\nQuestion: {question}"
-    return [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}]
+    user = f"Sources:\n{sources}\n\nQuestion: {question}{REMINDER}"
+    return [{"role": "system", "content": SYSTEM}, *FEW_SHOT, {"role": "user", "content": user}]
 
 
 def validate_citations(answer: str, hits: list[Hit]) -> tuple[str, list[dict], list[int]]:

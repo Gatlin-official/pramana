@@ -1,0 +1,19 @@
+{
+  "docs": {
+    "kettle.md": "# Kettle\n\nThe Zorbo kettle boils one litre of water in ninety seconds. Its handle is made of bamboo and stays cool.\n\n## Cleaning\n\nDescale the kettle every month with white vinegar. Never put the base in the dishwasher.",
+    "bike.md": "# Bicycle\n\nThe Velox bicycle has eleven gears and a carbon frame weighing seven kilograms.\n\n## Tyres\n\nInflate the tyres to eighty psi before every ride. Replace the inner tube if it loses pressure overnight.",
+    "garden.md": "# Garden\n\nTomatoes need six hours of direct sunlight each day. Water them at the roots in the early morning.\n\n## Pests\n\nAphids can be removed with a spray of soapy water. Ladybirds are natural predators of aphids."
+  },
+  "questions": [
+    {"id": "s01", "type": "single", "answerable": true, "question": "How fast does the Zorbo kettle boil water?", "evidence": ["boils one litre of water in ninety seconds"]},
+    {"id": "s02", "type": "single", "answerable": true, "question": "How often should I descale the kettle?", "evidence": ["Descale the kettle every month with white vinegar"]},
+    {"id": "s03", "type": "single", "answerable": true, "question": "How many gears does the Velox bicycle have?", "evidence": ["has eleven gears and a carbon frame"]},
+    {"id": "s04", "type": "single", "answerable": true, "question": "What pressure should the tyres be inflated to?", "evidence": ["Inflate the tyres to eighty psi before every ride"]},
+    {"id": "s05", "type": "single", "answerable": true, "question": "How much direct sunlight do tomatoes need?", "evidence": ["Tomatoes need six hours of direct sunlight each day"]},
+    {"id": "s06", "type": "single", "answerable": true, "question": "How can aphids be removed?", "evidence": ["Aphids can be removed with a spray of soapy water"]},
+    {"id": "s07", "type": "multi", "answerable": true, "question": "What is the kettle handle made of and can the base go in the dishwasher?", "evidence": ["Its handle is made of bamboo", "Never put the base in the dishwasher"]},
+    {"id": "s08", "type": "paraphrase", "answerable": true, "question": "Which insects eat the bugs on my plants?", "evidence": ["Ladybirds are natural predators of aphids"]},
+    {"id": "s09", "type": "unanswerable", "answerable": false, "question": "How do I configure Kafka consumers?", "evidence": []},
+    {"id": "s10", "type": "unanswerable", "answerable": false, "question": "What is the capital of Peru?", "evidence": []}
+  ]
+}
