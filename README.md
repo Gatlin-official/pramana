@@ -104,3 +104,7 @@ docs/DEMO.md                                            90-second demo script
 2. **PDF tables**: `pypdf` flattens tables to text; a layout-aware extractor would keep rows together.
 3. **A feedback button that grows the eval set**: thumbs-down on an answer saves the question plus the passage the
    user says was right as a new gold row, so the benchmark tracks real failures.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
