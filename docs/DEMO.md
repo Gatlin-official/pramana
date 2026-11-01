@@ -5,7 +5,7 @@ one question already asked once so the reranker and LLM are warm.
 
 | Time | Screen | Say |
 |------|--------|-----|
-| 0:00–0:10 | Ask page, empty | "This is Pramana, a fully local RAG assistant. Everything runs on my laptop: Postgres with pgvector, Ollama, a 3B model. Every answer has to cite the exact passage." |
+| 0:00–0:10 | Ask page, empty | "This is Pramana, a fully local RAG assistant. Everything runs on my laptop: Postgres with pgvector, Ollama, an 8B model. Every answer has to cite the exact passage." |
 | 0:10–0:30 | Type *"How do I declare an optional query parameter?"*, mode **hybrid**, rerank **on**, Ask | "Answers stream in with inline citations. Below are the retrieved chunks and the latency breakdown: retrieval, rerank, first token." |
 | 0:30–0:42 | Click citation chip `[1]` | "Clicking a citation opens the source document with the exact cited span highlighted, using the character offsets stored at ingestion." |
 | 0:42–0:57 | Switch mode to **keyword**, then **dense**, re-ask; open **Compare modes** | "I can rerun the same question in each retrieval mode and compare the answers side by side." |

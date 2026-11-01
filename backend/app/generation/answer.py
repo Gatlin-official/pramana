@@ -33,7 +33,7 @@ ABSTAIN = re.compile(r"NOT_FOUND|not found in the (provided )?(documents|sources
 
 
 REMINDER = "\n\nAnswer from the sources only, and end every sentence with its source number like [1]."
-# A 3B model needs to *see* the format: one cited answer and one abstention, then the real question.
+# A small local model needs to *see* the format: one cited answer and one abstention, then the real question.
 # Picked over zero-shot variants on a 7-question probe (zero-shot: bare "[1] [2]" or no citations).
 FEW_SHOT = [
     {

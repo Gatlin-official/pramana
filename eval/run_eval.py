@@ -22,7 +22,7 @@ sys.path.insert(0, str(HERE.parent / "backend"))
 
 from metrics import citation_precision, mean, mrr, ndcg_at, percentile, recall_at  # noqa: E402
 
-from app.core.config import JUDGE_MODEL  # noqa: E402
+from app.core.config import JUDGE_MODEL, LLM_MODEL  # noqa: E402
 from app.db.session import SessionLocal  # noqa: E402
 from app.generation import answer as answer_mod  # noqa: E402
 from app.generation.llm import chat_json, stream_chat  # noqa: E402
@@ -92,7 +92,10 @@ def aggregate(per: list[dict]) -> dict:
         out[f"recall@5_{t}"] = mean([r["recall@5"] for r in ans if r["type"] == t])
     lat = [r["latency_ms"] for r in per]
     out |= {"n_questions": len(per), "n_answerable": len(ans)}
-    out |= {"retrieval_p50_ms": percentile(lat, 50), "retrieval_p95_ms": percentile(lat, 95)}
+    out |= {
+        "retrieval_p50_ms": percentile(lat, 50),
+        "retrieval_p95_ms": percentile(lat, 95),
+    }
     return out
 
 
@@ -220,21 +223,31 @@ def main() -> None:
             }
             (RESULTS / "thresholds.json").write_text(json.dumps(thresholds, indent=2) + "\n")
             answer_mod.MIN_SCORE.update(dense=thresholds["dense"], rerank=thresholds["rerank"])
-            for mode in gen["mode"]:
-                for rerank in gen["rerank"]:
-                    name = run_name(gconfig, mode, rerank)
-                    run = runs[name]
-                    if run.get("generation", {}).get("questions_hash") == h and not args.force:
-                        continue
-                    t = time.perf_counter()
-                    g = generation_run(db, qs, gconfig, mode, rerank, gen["k"])
-                    run["generation"] = g | {"questions_hash": h, "k": gen["k"], "thresholds": thresholds}
-                    (RUNS / f"{name}.json").write_text(json.dumps(run, indent=1))
-                    gm = g["metrics"]
-                    print(
-                        f"GEN {name:<36} cite_p={gm['citation_precision']} faith={gm['faithfulness']} "
-                        f"abst={gm['abstention_accuracy']}  ({time.perf_counter() - t:.0f}s)"
-                    )
+            for spec in gen["runs"]:
+                mode, rerank = spec["mode"], spec["rerank"]
+                name = run_name(gconfig, mode, rerank)
+                run = runs[name]
+                if (
+                    run.get("generation", {}).get("questions_hash") == h
+                    and run["generation"].get("model") == LLM_MODEL
+                    and not args.force
+                ):
+                    continue
+                t = time.perf_counter()
+                g = generation_run(db, qs, gconfig, mode, rerank, gen["k"])
+                run["generation"] = g | {
+                    "questions_hash": h,
+                    "model": LLM_MODEL,
+                    "judge": JUDGE_MODEL,
+                    "k": gen["k"],
+                    "thresholds": thresholds,
+                }
+                (RUNS / f"{name}.json").write_text(json.dumps(run, indent=1))
+                gm = g["metrics"]
+                print(
+                    f"GEN {name:<36} cite_p={gm['citation_precision']} faith={gm['faithfulness']} "
+                    f"abst={gm['abstention_accuracy']}  ({time.perf_counter() - t:.0f}s)"
+                )
     write_summary(runs)
     write_spotcheck(runs)
 

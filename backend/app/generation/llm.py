@@ -10,7 +10,8 @@ OPTIONS = {"temperature": 0, "num_ctx": 8192}
 
 
 def stream_chat(messages: list[dict], model: str = LLM_MODEL) -> Iterator[str]:
-    body = {"model": model, "messages": messages, "stream": True, "options": OPTIONS}
+    # think=False: qwen3 otherwise spends seconds on hidden reasoning before the first answer token
+    body = {"model": model, "messages": messages, "stream": True, "think": False, "options": OPTIONS}
     try:
         with httpx.stream("POST", f"{OLLAMA_URL}/api/chat", json=body, timeout=300) as r:
             r.raise_for_status()
